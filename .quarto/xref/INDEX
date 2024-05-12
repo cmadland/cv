@@ -1,8 +1,14 @@
 {
   "index.qmd": {
-    "index.html": "2ec9e9e8"
+    "index.html": "2ec9e9e8",
+    "index.tex": "56fb2c5e"
   },
   "about.qmd": {
-    "about.html": "e7cc4a20"
+    "about.html": "e7cc4a20",
+    "about.tex": "9241adae"
+  },
+  "timeline.qmd": {
+    "timeline.html": "ad6a979c",
+    "timeline.tex": "22874b1d"
   }
 }
