@@ -42,7 +42,7 @@ This timeline is far from complete or comprehensive, and some dates are approxim
 
 # 1763 - 1900
 
-Timeline of events related to relationships between governments in North America and Indigenous Nations.
+The period between 1763 and 1900 contains many significant events that continue to affect relationships between settler society and Indigenous Peoples in North America. While there were certainly more acts passed by the Canadian and US governments and more armed conflicts that ended with the expulsion of Indigenous Peoples from their lands, the events identified below represent some of the major acts as well as localized conflicts that led eventually to the settlement of Ole Madland in the United States and then Canada.
 
 ## July 1763 - The Royal Proclamation
 
@@ -153,9 +153,15 @@ My great grandfather, Ole emigrates from Norway to North Dakota, USA.
 
 My father recalls that Ole arrived in New York and made his way to North Dakota. It seems he spent some time as a boarder on a farm in Minnesota until at least 1900.
 
-![12th US Census (1900) with a record of Ole Madland living in Minnesota.](assets/ole-1900-census.jpg) 
+![12th US Census (1900) with a record of Ole Madland living in Minnesota.](assets/ole-1900-census.jpg)
 
-# 1900 - 2016
+# 1901 - 2016
+
+By the time my great grandfather, Ole Andreas Rasmussen Madland, arrived in New York as a poor farm labourer in 1896, it had been 130 years since the Royal Proclamation of King George III and there was already a long history of the United States and Canadian governments using laws and treaties to enable the dispossession of Indigenous lands and the forcible removal of Indigenous Peoples from the territory upon which they once received sustenance.
+
+The Dakota people had been forced from their land in southern Minnesota only 30 years before Ole arrived, opening up the area for farmers to settle. Ole was working as a farmer in Minnesota in 1900. The *Dominion Lands Act* and the *Indian Act* in Canada were only a little over 20 years old and the young Canadian government was actively recruiting young men living in the US to head north and settle in the Canadian prairies [@gates1934].
+
+![Advertisement to recruit settlers to the Canadian Prairies](assets/uncle-sam.jpeg)
 
 ## 1906 - Ole Marries
 
@@ -165,18 +171,84 @@ In 1906, Ole married Pauline (Lena) Undheim, in North Dakota.
 
 My grandfather, Reuben Madland was born in MacKenzie, North Dakota, USA on May 10.
 
-
-
-
-
-
-
 ## 1910 & 1920 - Ole living in Whatcom County, Washington
 
 By 1910, Ole was living with his cousin, Ole Brekke, in Custer, Washington (I could not find a specific date of his move to Washington). He was married and had a 2-year-old son, Reuben, my grandfather.
 
-![13th US Census(1910) with a record of Ole Madland living in Whatcom County](assets/ole-madland-us-census-1910.png) 
+![13th US Census(1910) with a record of Ole Madland living in Whatcom County](assets/ole-madland-us-census-1910.png)
 
 ![Ole's military registration card from 1918.](assets/ole-ww1-registration-usa.jpg)
 
 ![14th US Census(1920) with a record of Ole Madland living in Whatcom County](assets/ole-1920-census.jpg)
+
+## 1923 - Ole Emigrates to Alberta, Canada
+
+Ole and his family emigrated from Washington State to Alberta, Canada sometime in 1923 (I specified June 1 because I would have rather travelled in nice weather).
+
+I found records indicating that Ole made a homestead claim near Lesser Slave Lake north of Edmonton, Alberta, but he is also recorded in the 1926 census of the Prairie provinces as farming near Camrose, AB, south of Edmonton (line 29; his last name is spelled incorrectly).
+
+It is possible that Ole applied for a quarter section of land for a homestead but was unable to 'prove' it, and instead moved south and leased land south of Camrose.
+
+![1926 Census of the Canadian Prairie Provinces showing Ole living near Camrose, Alberta with his wife, five children, and a boarder.](assets/ole-madland-1926-census.jpg)
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d201297.22705738503!2d-113.01529630913005!3d52.65261607642252!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTLCsDM4JzAzLjQiTiAxMTLCsDUwJzI5LjciVw!5e1!3m2!1sen!2sca!4v1576298876596!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen>
+
+</iframe>
+
+***Location of the Northeast quarter of Section 20, Township 42, Range 20, West of the 4th Meridian***
+
+![Location of Ole and Lena's farm in Alberta showing the traditional and ancestral stewards who ceded the land in Treaty 6](assets/native-land-ca.png)
+
+![My great grandfather, Ole Madland (left), with my Grandfather, Reuben, in Alberta in 1934.](assets/reuben-ole-chopping-wood.jpg)
+
+## 1947 - Ken Madland
+
+Ken Madland, my father, was born in New Westminster, BC, on unceded Coast Salish territory.
+
+![Map from nativeland.ca showing the unceded territories where my Father was born.](assets/native-land-ca-2.png)
+
+## 1952 - Ole Dies
+
+Ole died of complications of diabetes in New Westminster, BC.
+
+![Ole Madland's death certificate from 1952.](assets/ole-madland-death-certificate-official.jpg)
+
+## 1973 - Colin Madland
+
+I was born December 13 in Clearwater, British Columbia on unceded Secwépemc territory.
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/colinmadland/25161633145/in/album-72157662601541434/" title="Colin2"><img src="https://live.staticflickr.com/1562/25161633145_a8329d74f3_c.jpg" alt="Colin2" width="702" height="752"/></a>
+
+```{=html}
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+```
+## 2016
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/colinmadland/26397033222/" title="Untitled"><img src="https://live.staticflickr.com/1528/26397033222_141ca3affe_b.jpg" alt="Untitled" width="1024" height="768"/></a>
+
+```{=html}
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+```
+***In 2016 I was fortunate to be able to travel to Norway and visit the farm where Ole was born.***
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/colinmadland/26388642352/" title="Madland and Brekko, Norway"><img src="https://live.staticflickr.com/1681/26388642352_36ae8d961a_b.jpg" alt="Madland and Brekko, Norway" width="1024" height="678"/></a>
+
+```{=html}
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+```
+***The Madland farm from across the lake (Little white farmhouse to the left of centre)***
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/colinmadland/26414853221/" title="Madland and Brekko, Norway"><img src="https://live.staticflickr.com/1476/26414853221_601055927b_b.jpg" alt="Madland and Brekko, Norway" width="1024" height="678"/></a>
+
+```{=html}
+<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+```
+***The farmhouse has been abandoned for several years***
+
+# 2019 - 
+
+While @sleeter2016 was able to find a wider variety of documents such as wills and property records to trace more specifically how she benefitted financially from the dispossession of Indigenous lands, I was not able to do that in the time available.
+
+This action research self-study has been tremendously beneficial to my understanding of the social and political context of the history of my family's presence in Canada. Indigenist research requires that non-Indigenous researchers acknowledge their own privilege and role in research projects involving Indigenous people, and this model is profoundly impactful in revealing the truth of the ongoing colonisation of Indigenous lands. This process should be mandatory for any non-Indigenous person engaging in research in Indigenous contexts.
+
+I feel much more confident in my understanding of my role in Indigenist research and commit to carry this knowledge forward in challenging my fellow settlers to engage in the same exploration and to always work towards reconciliation and Indigenous resurgence and self-determination.
