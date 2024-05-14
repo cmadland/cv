@@ -10,5 +10,9 @@
   "timeline.qmd": {
     "timeline.html": "ad6a979c",
     "timeline.tex": "22874b1d"
+  },
+  "cv.qmd": {
+    "cv.html": "bb00cf05",
+    "cv.tex": "bfb43c32"
   }
 }
