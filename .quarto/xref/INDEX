@@ -14,5 +14,9 @@
   "cv.qmd": {
     "cv.html": "bb00cf05",
     "cv.tex": "bfb43c32"
+  },
+  "philosophy.qmd": {
+    "philosophy.html": "e15aec04",
+    "philosophy.tex": "8d1a3f46"
   }
 }

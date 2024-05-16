@@ -4,22 +4,19 @@ project:
 
 website:
   title: "Colin Madland"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - cv.qmd
+#  navbar:
+#    left:
+#      - href: index.qmd
+#        text: Home
+#      - cv.qmd
   sidebar:
     style: "docked"
     search: true
     contents:
-      - section: "Personal"
-        contents:
-          - index.qmd
-          - cv.qmd
-      - section: "Indigenist Research"
-        contents:
-          - timeline.qmd
+      - index.qmd
+      - cv.qmd
+      - philosophy.qmd
+      - timeline.qmd
 
 format:
   html:
