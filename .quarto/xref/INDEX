@@ -1,7 +1,8 @@
 {
   "index.qmd": {
     "index.html": "2ec9e9e8",
-    "index.tex": "56fb2c5e"
+    "index.tex": "56fb2c5e",
+    "index.docx": "9006ed45"
   },
   "about.qmd": {
     "about.html": "e7cc4a20",
@@ -9,14 +10,17 @@
   },
   "timeline.qmd": {
     "timeline.html": "ad6a979c",
-    "timeline.tex": "22874b1d"
+    "timeline.tex": "22874b1d",
+    "timeline.docx": "af6f8d46"
   },
   "cv.qmd": {
     "cv.html": "bb00cf05",
-    "cv.tex": "bfb43c32"
+    "cv.tex": "bfb43c32",
+    "cv.docx": "841bd8f4"
   },
   "philosophy.qmd": {
     "philosophy.html": "e15aec04",
-    "philosophy.tex": "8d1a3f46"
+    "philosophy.tex": "8d1a3f46",
+    "philosophy.docx": "4fb918e9"
   }
 }

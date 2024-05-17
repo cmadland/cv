@@ -24,6 +24,8 @@ format:
     css: styles.css
     toc: true
   pdf: default
-
+  docx: default
+bibliography: references.bib
+csl: apa.csl
 
 
