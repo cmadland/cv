@@ -1,7 +1,8 @@
 ---
-title: "Colin Madland"
+title: "About"
 ---
 
-This is a Quarto website.
+![Colin M. Madland, PhD(c)](assets/colin.jpg)
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I am a Ph.D. candidate at the University of Victoria studying technology-integrated assessment in higher education.
+
