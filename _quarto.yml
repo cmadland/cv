@@ -13,7 +13,6 @@ website:
     style: "docked"
     search: true
     contents:
-      - index.qmd
       - cv.qmd
       - philosophy.qmd
       - timeline.qmd

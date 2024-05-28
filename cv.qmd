@@ -168,7 +168,7 @@ May 22-23, 2023
 **Author**
 
 - **Madland, C.**, Irvine, V., DeLuca, C., & Bulut, O. (2024a). [Developing the Technology-Integrated Assessment Framework.](https://doi.org/10.18357/otessaj.2024.4.1.63) *The Open/Technology in Education, Society, and Scholarship Association Journal, 4*(1), 1–19. 
-- **Madland, C.**, Irvine, V., DeLuca, C., & Bulut, O. (2024b). [Technology-Integrated Assessment: A Literature Review.](https://doi.org/10.18357/otessaj.2024.4.1.57) *The Open/Technology in Education, Society, and Scholarship Association Journal, 4*(1), 1–48.  
+- **Madland, C.**, Irvine, V., DeLuca, C., & Bulut, O. (2024b). [Technology-Integrated Assessment: A Literature Review.](https://doi.org/10.18357/otessaj.2024.4.1.57) *The Open/Technology in Education, Society, and Scholarship Association Journal, 4*(1), 1–48. 
 - **Madland, C.**, & Richards, G. (2016). [Enhancing Student-Student Online Interaction: Exploring the Study Buddy Peer Review Activity.](https://doi.org/10.19173/irrodl.v17i3.2179) *International Review of Research in Open and Distance Learning, 17*(3). 
 
 **Peer Reviewed Proceedings**
@@ -180,14 +180,16 @@ May 22-23, 2023
 **Reviewer**
 
 - Open/Technology in Education, Society, and Scholarship Association (OTESSA) Conference
+- Open/Technology in Education Society, and Scholarship Association (OTESSA) Journal, 
 - International Review of Research in Open and Distributed Learning (IRRODL),
-- Research in Learning Technology (Association for Learning Technology)
-- Teaching & Learning Inquiry (International Society for the Scholarship of Teaching and Learning)
+- Research in Learning Technology (ISSOTL)
+- Teaching & Learning Inquiry 
+- International Journal of E-Learning and Distance Education
 
 **Presentations**
 
-- ***Madland, C.** (2023, June). [Research? Which Research? Technology, Assessment, and Higher Education in Tension.](https://otessa.github.io/2023/friday-june-2-online-sessions-only.html#concurrent-session-18.5-sustaining-positive-change) OTESSA 2023, Online.  
-- ***Madland, C.** (2022, May). [Assessment and Digital Technology in Higher Education: A Review of the Literature.](https://otessa.github.io/2022/tuesday-may-17-2022.html#assessment-and-digital-technology-in-higher-education-a-review-of-the-literature-research-oriented) OTESSA 2022, Online.  
+- ***Madland, C.** (2023, June). [Research? Which Research? Technology, Assessment, and Higher Education in Tension.](https://otessa.github.io/2023/friday-june-2-online-sessions-only.html#concurrent-session-18.5-sustaining-positive-change) OTESSA 2023, Online. 
+- ***Madland, C.** (2022, May). [Assessment and Digital Technology in Higher Education: A Review of the Literature.](https://otessa.github.io/2022/tuesday-may-17-2022.html#assessment-and-digital-technology-in-higher-education-a-review-of-the-literature-research-oriented) OTESSA 2022, Online. 
 - *Irvine, V., Paskevicius, M., **Madland, C.**, McCue, R., Roberts, V. (2022, May). [Multi-Section Open Course Design: Design and Implications for Faculty, Sessional Instructors, and Learners.](https://otessa.github.io/2022/wedesday-may-18-2022.html#parallel-session-11.1-transitions-of-online-learning-and-teaching-pse-open) OTESSA 2022, Online. 
 - *Marjanovic, K., Golland, B., **Madland, C.** (2022, May). [Share Access! Using Bookdown to Remove Barriers and Open Up Learning](https://otessa.github.io/2022/friday-may-20-2022.html#share-access-using-bookdown-to-remove-barriers-and-open-up-learning). OTESSA 2022, Online. 
 - ***Madland, C.**, Ofosuhene, M., and Adkins, J., (2022, May). [Digital platforms and algorithmic erasure: What are the implications?](https://otessa.github.io/2022/tuesday-may-17-2022.html#digital-platforms-and-algorithmic-erasure-what-are-the-implications-practice-oriented) OTESSA 2022, Online. 
@@ -217,8 +219,8 @@ May 22-23, 2023
 - **Madland, C.** (2012, May). Online Faculty Development. Southern Alberta Institute of Technology Faculty Showcase, Calgary, AB.
 - **Madland, C.** (2012, May). Outside the Box Feedback with Adobe Acrobat. Open Learning Faculty Members Workshop, Kamloops, BC.
 - **Madland, C.** (2011, October). Thinking Despite the Box: Designing Interaction in Blackboard. Teaching with Technology Series, Kamloops, BC.
-- **Madland, C.** (2010, October). Twitter in Higher Education. Teaching with Technology Series, Kamloops, BC.
-- 
+- **Madland, C.** (2010, October). Twitter in Higher Education. Teaching with Technology Series, Kamloops, BC.  
+
 \* Peer Reviewed
 
 ### COMMITTEES
