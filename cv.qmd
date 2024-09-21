@@ -3,70 +3,65 @@ title: "Curriculum Vitae"
 subtitle: "Colin M. Madland, Ph.D(c)"
 ---
 
-### EDUCATION
-#### Ph.D. Candidate, University of Victoria, Current
+## EDUCATION
+### Ph.D. Candidate, University of Victoria, Current
 
 Department of Curriculum and Instruction
 
 **Dissertation title:** “Technology-Integrated Assessment in Higher Education”
 
-::: {.callout-note icon="false"}
-## Publications from Dissertation Research
+#### Publications from Dissertation Research
 
 **Madland, C.**, Irvine, V., DeLuca, C., & Bulut, O. (2024a). [Developing the Technology-Integrated Assessment Framework.](https://doi.org/10.18357/otessaj.2024.4.1.63) *The Open/Technology in Education, Society, and Scholarship Association Journal, 4*(1), 1–19. 
 
 **Madland, C.**, Irvine, V., DeLuca, C., & Bulut, O. (2024b). [Technology-Integrated Assessment: A Literature Review.](https://doi.org/10.18357/otessaj.2024.4.1.57) *The Open/Technology in Education, Society, and Scholarship Association Journal, 4*(1), 1–48. 
 
-:::
-
-#### Master of Education (Distance Education), Athabasca University, 2014
+### Master of Education (Distance Education), Athabasca University, 2014
 
 **Thesis:** [*Structured Student Interactions in Online Distance Education: Exploring the Study Buddy Activity*](http://hdl.handle.net/10791/47)
 
 - Athabasca University Tim Byrne Memorial Scholarship (for academic excellence along with an outstanding thesis or project), nominated by the Centre for Distance Education, June 2014. 
 
-::: {.callout-note icon="false"}
-## Publication from Thesis Research
+#### Publication from Thesis Research
 
 **Madland, C.**, & Richards, G. (2016). [Enhancing Student-Student Online Interaction: Exploring the Study Buddy Peer Review Activity.](https://doi.org/10.19173/irrodl.v17i3.2179) *International Review of Research in Open and Distance Learning, 17*(3). 
-:::
 
-
-#### Bachelor of Education (Great Distinction), University of Lethbridge, 2002
+### Bachelor of Education (Great Distinction), University of Lethbridge, 2002
 
 - Minor in Outdoor Education
 - Specialization in Technology in Education 
 - Specialization in Career and Technology Studies
 
-#### University College of the Fraser Valley, Abbotsford, BC 1999-2000
+### University College of the Fraser Valley, Abbotsford, BC 1999-2000
 
 - Courses in geography; no credential.
 
-#### Bachelor of Arts, Trinity Western University, 1997
+### Bachelor of Arts, Trinity Western University, 1997
 
 - Physical Education 
 - Minor in Recreation
-
  
-### EXPERIENCE
+## EXPERIENCE
 
-#### Sessional Instructor, Trinity Western University
+### Sessional Instructor, Trinity Western University
+
 2019-Present
 
 - LDRS 663 - Coaching for Transformational Blended Learning (2019, 2020, 2021, 2023, 2024 - Graduate course)
 
-#### Sessional Instructor, University of Victoria
+### Sessional Instructor, University of Victoria
+
 2019-2022
 
 - EDCI 335 - Learning Design (2019, 2020, 2021)
 - EDCI 339 - Open and Distributed Learning (2019 and 2020)
 - EDCI 338 - Social Media and Personalized Learning (2022)
 
-
-#### Manager of Online Learning and Instructional Technologies, Trinity Western University, Langley, BC 
+### Manager of Online Learning and Instructional Technologies, Trinity Western University, Langley, BC 
 
 August 2016-Present
 
+- Collaborated with senior leadership, project managers, and my team to envision and realize the creation of an online, asynchronous, continuous-entry higher education program
 - Planned and led support for 300 faculty, instructors, and associated staff who pivoted to remote teaching due to covid-19
 - Planned and executed new learning management system installation 
 - Envisioned and built flexible infrastructure for the design and deployment of online learning experiences
@@ -80,7 +75,7 @@ August 2016-Present
 - Researched and implemented new instructional strategies
 - Participated in the planning and administration of policies, strategic plans, and goals
 
-#### Coordinator for Educational Technologies, Thompson Rivers University, Kamloops, BC
+### Coordinator for Educational Technologies, Thompson Rivers University, Kamloops, BC
 
 March 2016-June 2016 (sessional appointment)
 
@@ -90,7 +85,7 @@ March 2016-June 2016 (sessional appointment)
 - Researched and reported on the use of emerging educational technologies to support and advance scholarly teaching and assessment of learning.
 - Collaborated with TRU service units to establish, integrate and align blended and online learning solutions.
 
-#### E-Learning Facilitator, Thompson Rivers University, Kamloops, BC
+### E-Learning Facilitator, Thompson Rivers University, Kamloops, BC
 
 April 2010-June 2016
 
@@ -111,7 +106,7 @@ April 2010-June 2016
 - Worked cooperatively with TRU Instructional Designers to effectively integrate educational technology tools in course designs.
 - Created training materials for using TRU software systems (LMS, WordPress, Banner, HRSmart, Adobe Acrobat) in both print and video formats.
 
-#### Open Education Research Fellow
+### Open Education Research Fellow
 
 November 2015-2017
 
@@ -122,39 +117,9 @@ November 2015-2017
 - Three presentations from this research were given.
 - TRU Office of Research Services File #101066
 
-#### St. Ann's Academy (High School), Kamloops, BC
-2007 - 2010
+## INVITED WORKSHOPS
 
-- Physical Education
-- Digital Media and Design
-  
-#### Heritage Christian Academy (High School), Calgary, AB
-
-2002 - 2005
-
-- Physical Education
-- Sports Medicine
-- Outdoor Education
-- Digital Media and Design
-
-#### WR Myers High School, Taber, AB
-
-2002 (Temporary Contract)
-
-- Physical Education
-- Outdoor Education
-- English
-
-#### Assistant Language Teacher, Nagoya and Ogaki, Japan
-
-2005 - 2007
-
-- Assisted Japanese Teachers of English with lessons and lesson planning
-- Engaged in cultural exchange activities
-
-### INVITED WORKSHOPS
-
-#### Self-Paced Learning in Higher Education, Pan-Africa Christian University, Nairobi, Kenya
+### Self-Paced Learning in Higher Education, Pan-Africa Christian University, Nairobi, Kenya
 
 May 22-23, 2023
 
@@ -164,7 +129,7 @@ May 22-23, 2023
 - assessing learning
 - tools for interaction and engagement
 
-### ACADEMIC PUBLISHING
+## ACADEMIC PUBLISHING
 
 **Author**
 
@@ -188,7 +153,6 @@ May 22-23, 2023
 - International Journal of E-Learning and Distance Education
 
 **Presentations**
-
 
 - ***Madland, C.** (2023, June). [Research? Which Research? Technology, Assessment, and Higher Education in Tension.](https://otessa.github.io/2023/friday-june-2-online-sessions-only.html#concurrent-session-18.5-sustaining-positive-change) OTESSA 2023, Online. 
 - ***Madland, C.** (2022, May). [Assessment and Digital Technology in Higher Education: A Review of the Literature.](https://otessa.github.io/2022/tuesday-may-17-2022.html#assessment-and-digital-technology-in-higher-education-a-review-of-the-literature-research-oriented) OTESSA 2022, Online. 
@@ -225,7 +189,7 @@ May 22-23, 2023
 
 \* Peer Reviewed
 
-### COMMITTEES
+## COMMITTEES
 
 - Founding Board Member, [Open/Technology in Education, Society, and Scholarship Association (OTESSA)](https://otessa.org), 2019-present
 - Faculty Professional Learning Committee, Trinity Western University, 2016-present
@@ -234,7 +198,7 @@ May 22-23, 2023
 - Thompson Rivers University Graduate Studies Committee of Senate, November 2012 - November 2015
 - Academic Planning and Priorities Committee of Senate, October 2015-April 2016
 
-### AWARDS
+## AWARDS
 
 - BCcampus Research Fellowship, 2022 ($6000)
 - University of Victoria Graduate Student Award, September 2019 ($5000)
@@ -247,14 +211,14 @@ May 22-23, 2023
 - Athabasca University Access to Research Tools, April 2013. ($300)
 - Outstanding Service Award from Thompson Rivers University Open Learning, September 2012.
 
-### PROFESSIONAL LEARNING
+## PROFESSIONAL LEARNING
 
 - Coaching for Leaders, Smart + Savvy and Associates (2018)
 - [Interculturalizing the Curriculum](https://www.tru.ca/intercultural/inventory.html), Thompson Rivers University (2015)
 
+## CURRICULUM DEVELOPMENT PROJECTS
 
-### CURRICULUM DEVELOPMENT PROJECTS
-
+- LDRS 627 - Adult Learning (Course Revision)
 - LDRS 101 - Learning in a Digital World
 - LDRS 663 - Transformational Blended Learning
 - EDCI 335 - Learning Design
@@ -265,9 +229,9 @@ May 22-23, 2023
 - Course Management Strategies
 - Online Student Success
 
-### RELATED EXPERIENCE
+## RELATED EXPERIENCE
 
-#### Research Assistant, Athabasca University, Athabasca, AB
+### Research Assistant, Athabasca University, Athabasca, AB
 December 2010-December 2013 and November 2009-January 2010
 
 - performed literature searches using electronic databases
@@ -275,7 +239,7 @@ December 2010-December 2013 and November 2009-January 2010
 - provided advice about and edited survey items 
 - composed, sent and tracked emails sent to students inviting them to participate in a SSHRC-funded research study
 
-#### High School Teacher & Athletic Director, St. Ann’s Academy, Kamloops, BC
+### High School Teacher & Athletic Director, St. Ann’s Academy, Kamloops, BC
 
 September 2007-March 2010
 
@@ -284,13 +248,13 @@ September 2007-March 2010
 - introduced revised assessment practices in high school physical education classes
 - planned and hosted 8 tournaments per year in various sports
 
-#### English Teacher, Ogaki and Nagoya, Japan  
+### English Teacher, Ogaki and Nagoya, Japan  
 October 2005-July 2007
 
 - assisted Japanese Teachers of English with course development, lesson planning and team-teaching in the classroom
 - taught academic English to Japanese students wishing to study in North American universities
 
-#### Challenge Course Facilitator, Trinity Western University, Langley, BC
+### Challenge Course Facilitator, Trinity Western University, Langley, BC
 1998-1999 (Seasonal)
 
 - conducted needs assessment interviews for corporate and community clients
@@ -298,9 +262,40 @@ October 2005-July 2007
 - facilitated discussions among participants designed to draw out lessons learned about communication, teamwork, leadership and other collaborative skills
 - evaluated the effectiveness of challenge course experiences
 
-#### CERTIFICATIONS
+### CERTIFICATIONS
 - British Columbia Ministry of Education Teacher Regulation Branch
   - Professional Certificate #L178396
 - Alberta Education 
   - Permanent Professional Certificate #254651U
 
+<!--
+### St. Ann's Academy (High School), Kamloops, BC
+2007 - 2010
+
+- Physical Education
+- Digital Media and Design
+  
+### Heritage Christian Academy (High School), Calgary, AB
+
+2002 - 2005
+
+- Physical Education
+- Sports Medicine
+- Outdoor Education
+- Digital Media and Design
+
+### WR Myers High School, Taber, AB
+
+2002 (Temporary Contract)
+
+- Physical Education
+- Outdoor Education
+- English
+
+### Assistant Language Teacher, Nagoya and Ogaki, Japan
+
+2005 - 2007
+
+- Assisted Japanese Teachers of English with lessons and lesson planning
+- Engaged in cultural exchange activities
+-->

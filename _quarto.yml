@@ -23,7 +23,8 @@ format:
     css: styles.css
     toc: true
   pdf: default
-  docx: default
+  docx: 
+    reference-doc: reference.docx
 bibliography: references.bib
 csl: apa.csl
 
