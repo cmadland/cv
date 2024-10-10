@@ -14,8 +14,8 @@ website:
     search: true
     contents:
       - cv.qmd
-      - philosophy.qmd
-      - timeline.qmd
+      # - philosophy.qmd
+      # - timeline.qmd
 
 format:
   html:
