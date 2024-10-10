@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -80,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cv.html">CURRICULUM VITAE</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./cv.html">Curriculum Vitae</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -108,7 +128,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./cv.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">CURRICULUM VITAE</span></a>
+ <span class="menu-text">Curriculum Vitae</span></a>
   </div>
 </li>
     </ul>
@@ -121,29 +141,37 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#curriculum-vitae" id="toc-curriculum-vitae" class="nav-link active" data-scroll-target="#curriculum-vitae">CURRICULUM VITAE</a>
-  <ul class="collapse">
-  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">EDUCATION</a></li>
-  <li><a href="#certifications" id="toc-certifications" class="nav-link" data-scroll-target="#certifications">CERTIFICATIONS</a></li>
-  <li><a href="#employment-history" id="toc-employment-history" class="nav-link" data-scroll-target="#employment-history">EMPLOYMENT HISTORY</a></li>
-  <li><a href="#refereed-journal-articles" id="toc-refereed-journal-articles" class="nav-link" data-scroll-target="#refereed-journal-articles">REFEREED JOURNAL ARTICLES</a>
+  <li><a href="#curriculum-vitae" id="toc-curriculum-vitae" class="nav-link active" data-scroll-target="#curriculum-vitae">Curriculum Vitae</a></li>
+  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
+  <li><a href="#certifications" id="toc-certifications" class="nav-link" data-scroll-target="#certifications">Certifications</a></li>
+  <li><a href="#employment-history" id="toc-employment-history" class="nav-link" data-scroll-target="#employment-history">Employment History</a></li>
+  <li><a href="#refereed-journal-articles" id="toc-refereed-journal-articles" class="nav-link" data-scroll-target="#refereed-journal-articles">Refereed Journal Articles</a>
   <ul class="collapse">
   <li><a href="#forthcoming" id="toc-forthcoming" class="nav-link" data-scroll-target="#forthcoming">Forthcoming</a></li>
   </ul></li>
-  <li><a href="#refereed-proceedings" id="toc-refereed-proceedings" class="nav-link" data-scroll-target="#refereed-proceedings">REFEREED PROCEEDINGS</a></li>
-  <li><a href="#refereed-presentations" id="toc-refereed-presentations" class="nav-link" data-scroll-target="#refereed-presentations">REFEREED PRESENTATIONS</a></li>
-  <li><a href="#non-refereed-presentations" id="toc-non-refereed-presentations" class="nav-link" data-scroll-target="#non-refereed-presentations">NON-REFEREED PRESENTATIONS</a></li>
-  <li><a href="#research-dissemination" id="toc-research-dissemination" class="nav-link" data-scroll-target="#research-dissemination">RESEARCH DISSEMINATION</a></li>
-  <li><a href="#research-funding" id="toc-research-funding" class="nav-link" data-scroll-target="#research-funding">RESEARCH FUNDING</a></li>
-  <li><a href="#teaching-activities" id="toc-teaching-activities" class="nav-link" data-scroll-target="#teaching-activities">TEACHING ACTIVITIES</a></li>
-  <li><a href="#curriculum-development-projects" id="toc-curriculum-development-projects" class="nav-link" data-scroll-target="#curriculum-development-projects">CURRICULUM DEVELOPMENT PROJECTS</a></li>
-  <li><a href="#service" id="toc-service" class="nav-link" data-scroll-target="#service">SERVICE</a>
+  <li><a href="#refereed-proceedings" id="toc-refereed-proceedings" class="nav-link" data-scroll-target="#refereed-proceedings">Refereed Proceedings</a></li>
+  <li><a href="#refereed-presentations" id="toc-refereed-presentations" class="nav-link" data-scroll-target="#refereed-presentations">Refereed Presentations</a></li>
+  <li><a href="#non-refereed-presentations" id="toc-non-refereed-presentations" class="nav-link" data-scroll-target="#non-refereed-presentations">Non-Refereed Presentations</a></li>
+  <li><a href="#media" id="toc-media" class="nav-link" data-scroll-target="#media">Media</a></li>
+  <li><a href="#research-dissemination" id="toc-research-dissemination" class="nav-link" data-scroll-target="#research-dissemination">Research Dissemination</a></li>
+  <li><a href="#research-funding" id="toc-research-funding" class="nav-link" data-scroll-target="#research-funding">Research Funding</a></li>
+  <li><a href="#teaching-activities" id="toc-teaching-activities" class="nav-link" data-scroll-target="#teaching-activities">Teaching Activities</a></li>
+  <li><a href="#curriculum-development-projects" id="toc-curriculum-development-projects" class="nav-link" data-scroll-target="#curriculum-development-projects">Curriculum Development Projects</a></li>
+  <li><a href="#service" id="toc-service" class="nav-link" data-scroll-target="#service">Service</a>
   <ul class="collapse">
   <li><a href="#reviewer" id="toc-reviewer" class="nav-link" data-scroll-target="#reviewer">Reviewer</a></li>
   <li><a href="#committees" id="toc-committees" class="nav-link" data-scroll-target="#committees">Committees</a></li>
   </ul></li>
-  <li><a href="#awards" id="toc-awards" class="nav-link" data-scroll-target="#awards">AWARDS</a></li>
-  <li><a href="#professional-learning" id="toc-professional-learning" class="nav-link" data-scroll-target="#professional-learning">PROFESSIONAL LEARNING</a></li>
+  <li><a href="#awards" id="toc-awards" class="nav-link" data-scroll-target="#awards">Awards</a></li>
+  <li><a href="#professional-learning" id="toc-professional-learning" class="nav-link" data-scroll-target="#professional-learning">Professional Learning</a></li>
+  <li><a href="#research-program" id="toc-research-program" class="nav-link" data-scroll-target="#research-program">Research Program</a></li>
+  <li><a href="#teaching-and-leadership" id="toc-teaching-and-leadership" class="nav-link" data-scroll-target="#teaching-and-leadership">Teaching and Leadership</a></li>
+  <li><a href="#service-1" id="toc-service-1" class="nav-link" data-scroll-target="#service-1">Service</a></li>
+  <li><a href="#contributions-and-aspirations" id="toc-contributions-and-aspirations" class="nav-link" data-scroll-target="#contributions-and-aspirations">Contributions and Aspirations</a></li>
+  <li><a href="#evidence-of-collaboration" id="toc-evidence-of-collaboration" class="nav-link" data-scroll-target="#evidence-of-collaboration">Evidence of Collaboration</a></li>
+  <li><a href="#contact-information-for-three-referees" id="toc-contact-information-for-three-referees" class="nav-link" data-scroll-target="#contact-information-for-three-referees">Contact Information for Three Referees</a>
+  <ul class="collapse">
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="cv.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="cv.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
@@ -155,9 +183,10 @@ ul.task-list li input[type="checkbox"] {
 
 
 <section id="curriculum-vitae" class="level1">
-<h1>CURRICULUM VITAE</h1>
-<section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">EDUCATION</h2>
+<h1>Curriculum Vitae</h1>
+</section>
+<section id="education" class="level1">
+<h1>Education</h1>
 <table class="table-striped caption-top table">
 <colgroup>
 <col style="width: 25%">
@@ -203,8 +232,8 @@ ul.task-list li input[type="checkbox"] {
 <p>* I completed candidacy in 2022 and have since published 2 of 3 papers for my dissertation. The third paper is in process and I expect to be complete by the summer of 2025.</p>
 <p>**Thesis: <em>Structured Student Interactions in Online Distance Education: Exploring the Study Buddy Activity</em> <a href="http://hdl.handle.net/10791/47" class="uri">http://hdl.handle.net/10791/47</a></p>
 </section>
-<section id="certifications" class="level2">
-<h2 class="anchored" data-anchor-id="certifications">CERTIFICATIONS</h2>
+<section id="certifications" class="level1">
+<h1>Certifications</h1>
 <ul>
 <li>British Columbia Ministry of Education Teacher Regulation Branch
 <ul>
@@ -216,8 +245,8 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul>
 </section>
-<section id="employment-history" class="level2">
-<h2 class="anchored" data-anchor-id="employment-history">EMPLOYMENT HISTORY</h2>
+<section id="employment-history" class="level1">
+<h1>Employment History</h1>
 <table class="table-striped caption-top table">
 <colgroup>
 <col style="width: 20%">
@@ -269,23 +298,23 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="refereed-journal-articles" class="level2">
-<h2 class="anchored" data-anchor-id="refereed-journal-articles">REFEREED JOURNAL ARTICLES</h2>
+<section id="refereed-journal-articles" class="level1">
+<h1>Refereed Journal Articles</h1>
 <ul>
 <li><strong>Madland, C.</strong>, Irvine, V., DeLuca, C., &amp; Bulut, O. (2024a). Developing the Technology-Integrated Assessment Framework. <em>The Open/Technology in Education, Society, and Scholarship Association Journal, 4</em>(1), 1–19. <a href="https://doi.org/10.18357/otessaj.2024.4.1.63" class="uri">https://doi.org/10.18357/otessaj.2024.4.1.63</a></li>
 <li><strong>Madland, C.</strong>, Irvine, V., DeLuca, C., &amp; Bulut, O. (2024b). Technology-Integrated Assessment: A Literature Review. <em>The Open/Technology in Education, Society, and Scholarship Association Journal, 4</em>(1), 1–48. <a href="https://doi.org/10.18357/otessaj.2024.4.1.57" class="uri">https://doi.org/10.18357/otessaj.2024.4.1.57</a></li>
 <li><strong>Madland, C.</strong>, &amp; Richards, G. (2016). Enhancing Student-Student Online Interaction: Exploring the Study Buddy Peer Review Activity. <em>International Review of Research in Open and Distance Learning, 17</em>(3). <a href="https://doi.org/10.19173/irrodl.v17i3.2179" class="uri">https://doi.org/10.19173/irrodl.v17i3.2179</a></li>
 </ul>
-<section id="forthcoming" class="level3">
-<h3 class="anchored" data-anchor-id="forthcoming">Forthcoming</h3>
+<section id="forthcoming" class="level2">
+<h2 class="anchored" data-anchor-id="forthcoming">Forthcoming</h2>
 <ul>
 <li>Cui, H., Irvine, V., Miller, M., &amp; <strong>Madland, C.</strong> (In Preparation). Creating Capacity for Digital Transformation of Education: Mode and Disciplinary Barriers in the Development of Highly Qualified Personnel. <em>Canadian Journal of Learning and Technology</em>.</li>
 <li>Irvine, V., Paskevicius, M., <strong>Madland, C.</strong>, McCue, R., &amp; Roberts, V. (In Preparation). Multi-Section Open Course Design: Design and Implications for Faculty, Sessional Instructors, and Learners. <em>Open Praxis</em>.</li>
 </ul>
 </section>
 </section>
-<section id="refereed-proceedings" class="level2">
-<h2 class="anchored" data-anchor-id="refereed-proceedings">REFEREED PROCEEDINGS</h2>
+<section id="refereed-proceedings" class="level1">
+<h1>Refereed Proceedings</h1>
 <ul>
 <li><strong>Madland, C.</strong>, Irvine, V., DeLuca, C., &amp; Bulut, O. (2024, June). Evolving our understanding of technology-integrated assessment: A review of the literature and development of a new framework. <em>Open/Technology in Education, Society, and Scholarship Association at Congress of the Social Sciences and Humanities</em>, Montreal, QC, CA. <a href="https://doi.org/10.18357/otessac.2024.4.1.393" class="uri">https://doi.org/10.18357/otessac.2024.4.1.393</a></li>
 <li><strong>Madland, C.</strong>, Ofosuhene, M., &amp; Adkins, J. (2022). Digital Platforms and Algorithmic Erasure: What are the Implications? <em>Open/Technology in Education, Society, and Scholarship Association at Congress of the Social Sciences and Humanities</em>, Online. <a href="https://doi.org/10.18357/otessac.2022.2.1.137" class="uri">https://doi.org/10.18357/otessac.2022.2.1.137</a></li>
@@ -293,8 +322,8 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Madland, C.</strong>, &amp; Restoule, J.-P. (2021). Self-Determination in Indigenous Online Education. <em>The Open/Technology in Education, Society, and Scholarship Association Conference, 1</em> (1), 1–7. <a href="https://doi.org/10.18357/otessac.2021.1.1.147" class="uri">https://doi.org/10.18357/otessac.2021.1.1.147</a></li>
 </ul>
 </section>
-<section id="refereed-presentations" class="level2">
-<h2 class="anchored" data-anchor-id="refereed-presentations">REFEREED PRESENTATIONS</h2>
+<section id="refereed-presentations" class="level1">
+<h1>Refereed Presentations</h1>
 <ul>
 <li><strong>Madland, C.</strong>, Irvine, V., DeLuca, C., &amp; Bulut, O. (2024, June). Evolving our understanding of technology-integrated assessment: A review of the literature and development of a new framework. <em>Open/Technology in Education, Society, and Scholarship Association</em>, Montreal, QC, CA. <a href="https://cmadland.github.io/blog/posts/deck-otessa24/#/title-slide" class="uri">https://cmadland.github.io/blog/posts/deck-otessa24/#/title-slide</a></li>
 <li><strong>Madland, C.</strong> (2023, June). Research? Which Research? Technology, Assessment, and Higher Education in Tension. <em>Open/Technology in Education, Society, and Scholarship Association</em>, Online.</li>
@@ -328,24 +357,31 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Madland, C.</strong> (2012, May). Online Faculty Development. Southern Alberta Institute of Technology Faculty Showcase, Calgary, AB.</li>
 </ul>
 </section>
-<section id="non-refereed-presentations" class="level2">
-<h2 class="anchored" data-anchor-id="non-refereed-presentations">NON-REFEREED PRESENTATIONS</h2>
+<section id="non-refereed-presentations" class="level1">
+<h1>Non-Refereed Presentations</h1>
 <ul>
 <li><strong>Madland, C.</strong> (2012, May). Outside the Box Feedback with Adobe Acrobat. Open Learning Faculty Members Workshop, Kamloops, BC.</li>
 <li><strong>Madland, C.</strong> (2011, October). Thinking Despite the Box: Designing Interaction in Blackboard. Teaching with Technology Series, Kamloops, BC.</li>
 <li><strong>Madland, C.</strong> (2010, October). Twitter in Higher Education. Teaching with Technology Series, Kamloops, BC.</li>
 </ul>
 </section>
-<section id="research-dissemination" class="level2">
-<h2 class="anchored" data-anchor-id="research-dissemination">RESEARCH DISSEMINATION</h2>
+<section id="media" class="level1">
+<h1>Media</h1>
+<ul>
+<li>Krinsky, S., &amp; Bosley, R. (October 8, 2024). Alt Grading in Physical Education, Canadian Grading Reforms, and Technology-Integrated Assessment: An Interview with Colin Madland (No.&nbsp;65) [Podcast]. <a href="https://thegradingpod.com/episodes/65-alt-grading-in-physical-education-canadian-grading-reforms-and-technology-integrated-assessment-an-interview-with-colin-madland/" class="uri">https://thegradingpod.com/episodes/65-alt-grading-in-physical-education-canadian-grading-reforms-and-technology-integrated-assessment-an-interview-with-colin-madland/</a></li>
+<li>Greene, T. (2020). Valerie Irvine and Colin Madland [Broadcast]. [Podcast]. <a href="https://www.spreaker.com/episode/valerie-irvine-and-colin-madland--23026170" class="uri">https://www.spreaker.com/episode/valerie-irvine-and-colin-madland--23026170</a></li>
+</ul>
+</section>
+<section id="research-dissemination" class="level1">
+<h1>Research Dissemination</h1>
 <ul>
 <li>[UPCOMING] “Technology-Integrated Assessment in Higher Education”; Kigali, Rwanda; Uganda; and Pan-Africa Christian University, Nairobi, Kenya, November 2024</li>
 <li>“Self-Paced Learning in Higher Education”, Pan-Africa Christian University, Nairobi, Kenya, May 2023</li>
 <li>“What is Assessment”, TWU Faculty Professional Learning. March 2023 <a href="https://cmadland.github.io/decks/twu-faculty-professional-learning.html" class="uri">https://cmadland.github.io/decks/twu-faculty-professional-learning.html</a>.</li>
 </ul>
 </section>
-<section id="research-funding" class="level2">
-<h2 class="anchored" data-anchor-id="research-funding">RESEARCH FUNDING</h2>
+<section id="research-funding" class="level1">
+<h1>Research Funding</h1>
 <ul>
 <li>BCcampus Research Fellowship, 2022 ($6000)</li>
 <li>University of Victoria Graduate Student Award, September 2019 ($5000)</li>
@@ -358,8 +394,8 @@ ul.task-list li input[type="checkbox"] {
 <li>Athabasca University Access to Research Tools, April 2013. ($300)</li>
 </ul>
 </section>
-<section id="teaching-activities" class="level2">
-<h2 class="anchored" data-anchor-id="teaching-activities">TEACHING ACTIVITIES</h2>
+<section id="teaching-activities" class="level1">
+<h1>Teaching Activities</h1>
 <p>Undergraduate and <strong>Graduate</strong></p>
 <table class="table-striped caption-top table">
 <colgroup>
@@ -501,8 +537,8 @@ ul.task-list li input[type="checkbox"] {
 </tbody>
 </table>
 </section>
-<section id="curriculum-development-projects" class="level2">
-<h2 class="anchored" data-anchor-id="curriculum-development-projects">CURRICULUM DEVELOPMENT PROJECTS</h2>
+<section id="curriculum-development-projects" class="level1">
+<h1>Curriculum Development Projects</h1>
 <ul>
 <li>LDRS 627 - Adult Learning (Course Revision)</li>
 <li>LDRS 101 - Learning in a Digital World</li>
@@ -516,10 +552,10 @@ ul.task-list li input[type="checkbox"] {
 <li>Online Student Success</li>
 </ul>
 </section>
-<section id="service" class="level2">
-<h2 class="anchored" data-anchor-id="service">SERVICE</h2>
-<section id="reviewer" class="level3">
-<h3 class="anchored" data-anchor-id="reviewer">Reviewer</h3>
+<section id="service" class="level1">
+<h1>Service</h1>
+<section id="reviewer" class="level2">
+<h2 class="anchored" data-anchor-id="reviewer">Reviewer</h2>
 <ul>
 <li>Open/Technology in Education, Society, and Scholarship Association (OTESSA) Conference</li>
 <li>Open/Technology in Education Society, and Scholarship Association (OTESSA) Journal,</li>
@@ -529,8 +565,8 @@ ul.task-list li input[type="checkbox"] {
 <li>International Journal of E-Learning and Distance Education</li>
 </ul>
 </section>
-<section id="committees" class="level3">
-<h3 class="anchored" data-anchor-id="committees">Committees</h3>
+<section id="committees" class="level2">
+<h2 class="anchored" data-anchor-id="committees">Committees</h2>
 <ul>
 <li>Founding Board Member, <a href="https://otessa.org">Open/Technology in Education, Society, and Scholarship Association (OTESSA)</a>, 2019-present</li>
 <li>Faculty Professional Learning Committee, Trinity Western University, 2016-present</li>
@@ -541,26 +577,74 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 </section>
-<section id="awards" class="level2">
-<h2 class="anchored" data-anchor-id="awards">AWARDS</h2>
+<section id="awards" class="level1">
+<h1>Awards</h1>
 <ul>
 <li>Outstanding Service Award from Thompson Rivers University Open Learning, September 2012.</li>
 </ul>
 </section>
-<section id="professional-learning" class="level2">
-<h2 class="anchored" data-anchor-id="professional-learning">PROFESSIONAL LEARNING</h2>
+<section id="professional-learning" class="level1">
+<h1>Professional Learning</h1>
 <ul>
 <li>Coaching for Leaders, Smart + Savvy and Associates (2018)</li>
 <li><a href="https://www.tru.ca/intercultural/inventory.html">Interculturalizing the Curriculum</a>, Thompson Rivers University (2015)</li>
 </ul>
+</section>
+<section id="research-program" class="level1">
+<h1>Research Program</h1>
+<p>Educational assessment is at the heart of robust formal education systems and has been deeply impacted by both COVID-19 and by the broad emergence of generative artificial intelligence (genAI). My research program is focused, in the short-term, on refining and operationalizing our technology integrated assessment framework (TIAF) <span class="citation" data-cites="madlandDevelopingTechnologyIntegratedAssessment2024">(<a href="#ref-madlandDevelopingTechnologyIntegratedAssessment2024" role="doc-biblioref">Madland et al., 2024a</a>)</span> in the context of emerging technologies, such as genAI and artificial/virtual reality (AR/VR). In the longer term, especially considering this opportunity with the Werklund School of Education, there is much work to be done to operationalize the refined TIAF by continuing to build a scale to be used to help individual educators, K-12 schools and districts, higher education departments, centres for teaching and learning, scholars of teaching and learning, and/or any other interested stakeholder to explore and understand the impacts of emerging technologies on assessment design and practice, and, by extension, to transform assessment practice in both fornal and informal learning environments. The potential for transformative impact on education systems by paying attention to technology-integrated assessment is significant, as Ramsden claims, “assessment always defines the actual curriculum” <span class="citation" data-cites="ramsdenLearningTeachHigher2003">(<a href="#ref-ramsdenLearningTeachHigher2003" role="doc-biblioref">2003, p. 182</a>)</span>. I believe that transforming technology-integrated assessment practices is one of the most powerful levers we have in the drive to “increase access to impactful and future-focused education” <span class="citation" data-cites="AheadTomorrowStrategic">(<a href="#ref-AheadTomorrowStrategic" role="doc-biblioref"><em>Ahead of <span>Tomorrow</span> <span></span> <span>Strategic Plan</span> 2023-30 <span></span> <span>University</span> of <span>Calgary</span></em>, n.d.</a>)</span>.</p>
+<p>Given the long history of “emerging educational technologies” that have come and gone (e.g.&nbsp;teaching machines, SecondLife, commercial massively open online courses) without significantly transforming education, it is wise to understand that genAI and AR/VR are likely the most recent addition to this list. A research program that is focused on a single tool or implementation of a tool may have limited sustainability as tools come and go. Consequently, the TIAF is technology agnostic.</p>
+<p>The TIAF comprises four primary constructs (assessment purpose, duty of care, technology acceptance, and measurement), each capable of supporting robust interdisciplinary investigations. Questions that arise from the <em>assessment purpose</em> construct include investigating the impacts of AI use on the balance of assessment of/for/as learning in K-12 and higher education practice. More specifically, emerging technologies including genAI and AR/VR, have provided opportunity for instructors to focus more on the <em>process</em> of learning and assessment for/as learning compared to the <em>products</em> of learning. The <em>duty of care</em> construct provides myriad opportunities for investigations into the ethics of genAI or AR/VR use and the ways in which it is important to prioritize human characteristics and relationships in education. Note especially the differential impacts on racialized learners and their challenges with using AI-powered remote proctoring services during the COVID-19 pandemic (see my proceeding that highlights my viral experience with this issue <span class="citation" data-cites="madlandDigitalPlatformsAlgorithmic2022">(<a href="#ref-madlandDigitalPlatformsAlgorithmic2022" role="doc-biblioref">Madland et al., 2022</a>)</span>). At the same time, there are notable benefits for equity-deserving groups (e.g.&nbsp;neurodivergent learners) who may be able to leverage boutique, privacy-protecting genAI models to preview and refine their work prior to submission to an instructor. Duty of care is especially important to prioritize in Indigenous learning contexts where there is a long history of exploitation, extraction, and exterimnation in the context of education (see my proceeding exploring this issue <span class="citation" data-cites="madlandSelfDeterminationIndigenousOnline2021">(<a href="#ref-madlandSelfDeterminationIndigenousOnline2021" role="doc-biblioref">Madland &amp; Restoule, 2021</a>)</span>). The <em>technology acceptance</em> construct leads to questions about managing technological and pedagogical change in contexts with a focus on technology adoption by instructors. Lasting transformation of educational systems requires deep and careful work in managing change. My work as Manager of Online Learning and Instructional Technology has given me clear insight and direct experience in managing and transforming educational systems and technological infrastructure at an enterprise level. This experience provides crucial context for my research into technology acceptance and adoption by the full breadth of stakeholders, from learners, to instructors, support staff, and senior administrators and board-level executives. Lastly, the <em>assessment design</em> construct offers many opportunities to consider pedagogical designs and architectures that maximize the impact of quality learning experiences. Too often, universal design for learning (UDL) is an afterthought or an add-on to existing educational and assessment designs, however in this framework, intentional focus is brough to bear on the up-front design of learning environments which are human-centred, equitable, inclusive, and accessible.</p>
+<p>The technology-integrated assessment framework as a whole and each individual construct described within present rich opportunities for research on learning through emerging digital technologies. This wide variety of possible approaches to investigating emerging technologies in education leads to multiple opportunities for transdisciplinary, quantitative, qualitative, and mixed research collaborations including educators, ethicists, neuropsychologists, computer scientists, environmental and climate scientists, scholars of leadership, and practicing educational technologists. Further, as the framework is embedded within the 5Rs of Indigenous education, there are multiple possibilities for collaborating with Indigenous scholars and the University of Calgary Office of Indigenous Engagement to explore these and other questions specific to Indigenous communities as we journey together towards reconciliation and renewal <span class="citation" data-cites="officeofindigenousengagementIiTaapohtop">(<a href="#ref-officeofindigenousengagementIiTaapohtop" role="doc-biblioref">Office of Indigenous Engagement, n.d.</a>)</span>.</p>
+</section>
+<section id="teaching-and-leadership" class="level1">
+<h1>Teaching and Leadership</h1>
+<p>Teaching is a profound passion of mine, particularly when it allows me to apply my research findings in the classroom. My teaching experience spans K-25 in both public and private high schools in BC and Alberta; internationally as an assistant language teacher in Japan; and in both undergraduate and graduate courses in higher education. I have taught a diverse range of subjects in K-12, including physical education, digital media studies, outdoor education, sports medicine, science, English, and math.</p>
+<p>At the University of Victoria, I co-designed and taught three online undergraduate courses: Learning Design, Distributed and Open Learning, and Social Media and Personalized Learning. These courses use WordPress as the primary hub of networked interactions, enabling students to personalize their web presence while acquiring critical digital literacy skills by engaging with the open web. (see my 2022 proceedings on multi-section course design <span class="citation" data-cites="irvineMultiSectionOpenCourse2022a">(<a href="#ref-irvineMultiSectionOpenCourse2022a" role="doc-biblioref">Irvine et al., 2022</a>)</span> as an example of how I share my practice in scholarly venues).</p>
+<p>One of the highlights of my undergraduate teaching experience was co-designing and teaching in parallel with a fellow Ph.D.&nbsp;student during the early stages of the global COVID-19 pandemic. This collaborative process was mutually supportive and helped us navigate the complexities of teaching undergraduates in an innovative, technology-integrated context. Our experience is documented in a presentation at the OTESSA21 conference at the Congress of the Social Sciences and Humanities. I also co-designed and taught Coaching for Transformational Blended Learning and have been contracted to revise Theory and Practice of Adult Education, courses in the Graduate Certificate in Adult Learning: Coaching and Facilitation at Trinity Western University. These courses take an experiential approach to coaching individual learners and facilitating group processes in educational contexts. At the undergraduate level at TWU, I collaborated with an instructional designer to create an introductory online course called Learning with Technology which will enrol its first learners in the Fall of 2024. This course helps learners understand the affordances of technology for sense-making in learning environments by teaching them a technology-integrated workflow that maintains their personal privacy and teaches learners how to build networks of knowledge and learning using WordPress.</p>
+<p>Since 2010, I have been primarily employed as academic management supporting technology-integrated teaching and learning, including faculty support roles at Thompson Rivers University (2010-2016) and currently at Trinity Western University (2016-present). In my current role, I manage a remote team of 15 people, including instructional designers, digital course producers, media creators, and education coaches and facilitators. We are currently working to design or revise over 100 courses in the TWU Bachelor of Arts in Leadership and Master of Arts in Leadership programs for flexible, community-connected delivery. In 2023, I traveled to Kenya to provide two days of faculty training on creating and managing courses in online modalities. I have supported the technology-integrated learning and reflective practice of teacher candidates in the TWU School of Education by initiating and sustaining the use of WordPress for creating professional portfolios that demonstrate competence in each of the Professional Standards for BC Educators. Additionally, I was invited as a guest speaker to present my research in technology-integrated Indigenous education to a class of teacher candidates in the University of Victoria teacher education program.</p>
+</section>
+<section id="service-1" class="level1">
+<h1>Service</h1>
+<p>I have been actively involved in university service both at TRU and TWU. At TRU, I served as a staff representative on the Graduate Studies Committee, including a brief tenure as Chair. At TWU, I have been a member of the Faculty Professional Learning Committee, advising the Associate Vice-Provost of Teaching and Learning on matters related to teaching excellence, education technology, and planning the annual faculty retreat. I played a pivotal role in leading the COVID-19 pivot to emergency remote teaching, supporting faculty in radically transforming their practice on short notice. This experience, despite its challenges, was immensely meaningful. In 2022, with the rise of generative artificial intelligence (ChatGPT) in higher education, I was appointed to the committee that drafted TWU’s policy and recommendations for navigating teaching and learning with AI tools.</p>
+<p>In 2019, I was invited to join the inaugural board of the Open/Technology in Education, Society, and Scholarship Association (OTESSA), a member association of the Federation for the Humanities and Social Sciences. OTESSA is dedicated to supporting technology-enhanced teaching and learning from K-20+ and exploring the societal impact of openness and technology. Despite the cancellation of our first conference in 2020, I co-chaired the inaugural conference in 2021 and remain actively involved on the board, including being deeply involved with the creation of technological infrastructure and operations to support this rapidly growing scholarly organization.</p>
+<p>I have served as a reviewer for multiple academic journals, including the Open/Technology in Education Society and Scholarship Association (OTESSA) Journal, Teaching &amp; Learning Inquiry, Research in Learning Technology, the International Journal of E-Learning and Distance Education, and the International Review of Research in Open and Distributed Learning.</p>
+</section>
+<section id="contributions-and-aspirations" class="level1">
+<h1>Contributions and Aspirations</h1>
+<p>My Ph.D.&nbsp;research focuses on understanding technology-integrated assessment practices, reflecting their growing importance in education today. I am privileged to have distinguished committee members from across Canada: Dr.&nbsp;Valerie Irvine (Supervisor, University of Victoria Director of the Technology Integration and Evaluation Research Lab and President of the Open/Technology in Education, Society, and Scholarship Association), Dr.&nbsp;Christopher DeLuca (Committee Member, Queen’s University Associate Dean of Graduate Studies), and Dr.&nbsp;Okan Bulut (Committee Member, Associate Professor of Measurement, Evaluation and Data Science, University of Alberta and University of Alberta President’s Research Prize Recipient). I spearheaded an investigation into prevalent technology-integrated assessment practices as documented in the literature <span class="citation" data-cites="madlandTechnologyIntegratedAssessmentLiterature2024">(<a href="#ref-madlandTechnologyIntegratedAssessmentLiterature2024" role="doc-biblioref">Madland et al., 2024b</a>)</span>. Building on these findings and leveraging our expertise in educational technology, measurement, and classroom assessment, we developed the TIAF that emphasizes the 5Rs of Indigenous education (respect, relevance, reciprocity, responsibility, and relationships), and the duty of care instructors owe to learners <span class="citation" data-cites="madlandDevelopingTechnologyIntegratedAssessment2024">(<a href="#ref-madlandDevelopingTechnologyIntegratedAssessment2024" role="doc-biblioref">Madland et al., 2024a</a>)</span>. The TIAF is the contribution to the fields of educational technology, instructional design, and assessment of which I am most proud and hopeful. In the constant push and pull to integrate the latest emerging technologies, we must not forget that learning is a necessarily human process.</p>
+<p>The final paper of my dissertation, which I expect to complete by the summer of 2025, will center on exploring the quantitative structure of the framework in order to refine and simplify it. Once this refining work has been through this first iteration, I look forward to being able to engage with the questions highlighted in my research proposal section in order to develop a diagnostic instrument based on the TIAF for use by individual educators and larger organizations. This diagnostic tool can then begin to generate data that can be used to highlight challenges in the current model of learning and assessment and then effect change based on our findings. Systemic transformation of educational and assessment systems is a significant challenge and we must “harness the power of research and innovation” <span class="citation" data-cites="AheadTomorrowStrategic">(<a href="#ref-AheadTomorrowStrategic" role="doc-biblioref"><em>Ahead of <span>Tomorrow</span> <span></span> <span>Strategic Plan</span> 2023-30 <span></span> <span>University</span> of <span>Calgary</span></em>, n.d.</a>)</span> in order to progress. In a transformed system, education will become less susceptible to the overstated claims of the educational technology industry and more willing to engage in the thoughtful integration of technologies that enhance uniquely human capabilities.</p>
+<p>To this point in my career, I have been completing my PhD part-time while engaged in a full-time career in higher education. This has left me with few options for finding funding (e.g, SSHRC funding is only recently available for part-time students, but I am no longer eligible because I am too far along in my program.) I look forward to being able to apply much more of my effort and energy into securing funding, not only through the Tri-Council agencies, but also through government, university, and other external sources. For example, I am privileged to have extensive backgroung with the Technology Integration and Evaluation (TIE) Lab at the University of Victoria where I have been mentored in strategies for securing funding from agencies like the <a href="https://www.innovation.ca/">Canada Foundation for Innovation</a> (CFI) which matches seed funding at a rate of 4:1. This would allow me to leverage start-up funds provided in this position and quadruple the financial impact of that initial funding. My supervisor and mentor used this strategy to raise $1.4 million ($780,000 from CFI, the largest amount at UVic) to support the development of the TIE Lab.</p>
+<p>My career thus far has balanced experiences in both K-12 and higher education. At the University of Calgary, I would have the opportunity to impact learning and assessment with technology at all levels from K-25 and beyond. The framework developed through my dissertation emphasizes the duty of care owed to learners and the 5Rs of Indigenous education, both of which are critical to human flourishing in the current technology-saturated context of formal education. This work is inherently collaborative, and I look forward to working with colleagues in the Werklund School of Education to advance progressive formal education.</p>
+</section>
+<section id="evidence-of-collaboration" class="level1">
+<h1>Evidence of Collaboration</h1>
+<p>I have prioritised collaboration throughout my career. All of my published journal articles and proceedings have been the result of rich collaborations across disciplinary areas and often across institutions. I have collaborated with at least 16 different research partners during my career and 7 different teaching partners since 2019. While I have not been in a role that allows me to supervise graduate students, I am regularly asked to provide peer mentorship to new Masters and PhD students as well as new sessional instructors (see my presentation on a collaborative teaching experience in 2021 <span class="citation" data-cites="madlandExperiencingCognitiveApprenticeship2021">(<a href="#ref-madlandExperiencingCognitiveApprenticeship2021" role="doc-biblioref">Madland &amp; James, 2021</a>)</span>).</p>
+</section>
+<section id="contact-information-for-three-referees" class="level1">
+<h1>Contact Information for Three Referees</h1>
+<p>Dr.&nbsp;Valerie Irvine (Ph.D.&nbsp;Supervisor)<br>
+Director, Technology Integration and Evaluation Research Lab<br>
+University of Victoria<br>
+virvine@uvic.ca</p>
+<p>Dr.&nbsp;Griff Richards (Retired; M.Ed. supervisor)<br>
+Athabasca University<br>
+jgriffr@gmail.com</p>
+<p>Dr.&nbsp;Michele Jacobsen<br>
+Professor, Werklund School of Education<br>
+University of Calgary<br>
+dmjacobs@ucalgary.ca</p>
+<div style="page-break-after: always;"></div>
+<section id="references" class="level2">
+
 <!--
-### St. Ann's Academy (High School), Kamloops, BC
+## St. Ann's Academy (High School), Kamloops, BC
 2007 - 2010
 
 - Physical Education
 - Digital Media and Design
   
-### Heritage Christian Academy (High School), Calgary, AB
+## Heritage Christian Academy (High School), Calgary, AB
 
 2002 - 2005
 
@@ -569,7 +653,7 @@ ul.task-list li input[type="checkbox"] {
 - Outdoor Education
 - Digital Media and Design
 
-### WR Myers High School, Taber, AB
+## WR Myers High School, Taber, AB
 
 2002 (Temporary Contract)
 
@@ -577,7 +661,7 @@ ul.task-list li input[type="checkbox"] {
 - Outdoor Education
 - English
 
-### Assistant Language Teacher, Nagoya and Ogaki, Japan
+## Assistant Language Teacher, Nagoya and Ogaki, Japan
 
 2005 - 2007
 
@@ -585,15 +669,15 @@ ul.task-list li input[type="checkbox"] {
 - Engaged in cultural exchange activities
 -->
 <!--
-## EXPERIENCE
+# EXPERIENCE
 
-### Sessional Instructor, Trinity Western University
+## Sessional Instructor, Trinity Western University
 
 2019-Present
 
 -   LDRS 663 - Coaching for Transformational Blended Learning (2019, 2020, 2021, 2023, 2024 - Graduate course)
 
-### Sessional Instructor, University of Victoria
+## Sessional Instructor, University of Victoria
 
 2019-2022
 
@@ -602,9 +686,9 @@ ul.task-list li input[type="checkbox"] {
 -   EDCI 338 - Social Media and Personalized Learning (2022)
 
 
-## RELATED EXPERIENCE
+# RELATED EXPERIENCE
 
-### Research Assistant, Athabasca University, Athabasca, AB
+## Research Assistant, Athabasca University, Athabasca, AB
 
 December 2010-December 2013 and November 2009-January 2010
 
@@ -613,7 +697,7 @@ December 2010-December 2013 and November 2009-January 2010
 -   provided advice about and edited survey items
 -   composed, sent and tracked emails sent to students inviting them to participate in a SSHRC-funded research study
 
-### High School Teacher & Athletic Director, St. Ann’s Academy, Kamloops, BC
+## High School Teacher & Athletic Director, St. Ann’s Academy, Kamloops, BC
 
 September 2007-March 2010
 
@@ -622,14 +706,14 @@ September 2007-March 2010
 -   introduced revised assessment practices in high school physical education classes
 -   planned and hosted 8 tournaments per year in various sports
 
-### English Teacher, Ogaki and Nagoya, Japan
+## English Teacher, Ogaki and Nagoya, Japan
 
 October 2005-July 2007
 
 -   assisted Japanese Teachers of English with course development, lesson planning and team-teaching in the classroom
 -   taught academic English to Japanese students wishing to study in North American universities
 
-### Challenge Course Facilitator, Trinity Western University, Langley, BC
+## Challenge Course Facilitator, Trinity Western University, Langley, BC
 
 1998-1999 (Seasonal)
 
@@ -640,10 +724,39 @@ October 2005-July 2007
 -->
 
 
+
 </section>
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-AheadTomorrowStrategic" class="csl-entry" role="listitem">
+<em>Ahead of <span>Tomorrow</span> <span></span> <span>Strategic Plan</span> 2023-30 <span></span> <span>University</span> of <span>Calgary</span></em>. (n.d.). https://ucalgary.ca/about/ahead-of-tomorrow.
+</div>
+<div id="ref-irvineMultiSectionOpenCourse2022a" class="csl-entry" role="listitem">
+Irvine, V., Paskevicius, M., Madland, C., McCue, R., &amp; Roberts, V. (2022). Multi-<span>Section Open Course Design</span>: <span>Design</span> and <span>Implications</span> for <span>Faculty</span>, <span>Sessional Instructors</span>, and <span>Learners</span>. <em>Open Praxis</em>.
+</div>
+<div id="ref-madlandDevelopingTechnologyIntegratedAssessment2024" class="csl-entry" role="listitem">
+Madland, C., Irvine, V., DeLuca, C., &amp; Bulut, O. (2024a). Developing the <span>Technology-Integrated Assessment Framework</span>. <em>The Open/Technology in Education, Society, and Scholarship Association Journal</em>, <em>4</em>(1), 1–19. <a href="https://doi.org/10.18357/otessaj.2024.4.1.63">https://doi.org/10.18357/otessaj.2024.4.1.63</a>
+</div>
+<div id="ref-madlandTechnologyIntegratedAssessmentLiterature2024" class="csl-entry" role="listitem">
+Madland, C., Irvine, V., DeLuca, C., &amp; Bulut, O. (2024b). Technology-<span>Integrated Assessment</span>: <span>A Literature Review</span>. <em>The Open/Technology in Education, Society, and Scholarship Association Journal</em>, <em>4</em>(1), 1–48. <a href="https://doi.org/10.18357/otessaj.2024.4.1.57">https://doi.org/10.18357/otessaj.2024.4.1.57</a>
+</div>
+<div id="ref-madlandExperiencingCognitiveApprenticeship2021" class="csl-entry" role="listitem">
+Madland, C., &amp; James, H. (2021). <em>Experiencing a cognitive apprenticeship in the context of co-designing and co-teaching an undergraduate course</em>.
+</div>
+<div id="ref-madlandDigitalPlatformsAlgorithmic2022" class="csl-entry" role="listitem">
+Madland, C., Ofosuhene, M., &amp; Adkins, J. (2022). Digital <span>Platforms</span> and <span>Algorithmic Erasure</span>: <span>What</span> are the <span>Implications</span>? <em><span>OTESSA Conference</span> 2022</em>. <a href="https://doi.org/10.18357/otessac.2022.2.1.137">https://doi.org/10.18357/otessac.2022.2.1.137</a>
+</div>
+<div id="ref-madlandSelfDeterminationIndigenousOnline2021" class="csl-entry" role="listitem">
+Madland, C., &amp; Restoule, J.-P. (2021). Self-<span>Determination</span> in <span>Indigenous Online Education</span>. <em>The Open/Technology in Education, Society, and Scholarship Association Conference</em>, <em>1</em>(1), 1–7. <a href="https://doi.org/10.18357/otessac.2021.1.1.147">https://doi.org/10.18357/otessac.2021.1.1.147</a>
+</div>
+<div id="ref-officeofindigenousengagementIiTaapohtop" class="csl-entry" role="listitem">
+Office of Indigenous Engagement. (n.d.). <em>Ii’ taa’poh’to’p</em>. University of Calgary.
+</div>
+<div id="ref-ramsdenLearningTeachHigher2003" class="csl-entry" role="listitem">
+Ramsden, P. (2003). <em>Learning to <span>Teach</span> in <span>Higher Education</span></em>. Routledge. <a href="https://doi.org/10.4324/9780203507711">https://doi.org/10.4324/9780203507711</a>
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
