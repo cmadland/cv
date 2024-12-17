@@ -15,16 +15,16 @@ website:
     contents:
       - cv.qmd
       # - philosophy.qmd
-      # - timeline.qmd
+      - timeline.qmd
 
 format:
   html:
     theme: yeti
     css: styles.css
     toc: true
-  pdf: default
-  docx: 
-    reference-doc: reference.docx
+  # pdf: default
+  # docx: 
+  #   reference-doc: reference.docx
 bibliography: references.bib
 csl: apa.csl
 
