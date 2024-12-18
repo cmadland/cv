@@ -31,6 +31,7 @@ Epistemological perspectives are derived from who we are and what we do.
 > If there is an end, it is when the teacher has become unnecessary.
 
 Coming to know something (learning) is a result of what we do. When learners strive for a cognitive goal, they iterate based on their past knowledge combined with feedback they receive regarding their performance in relation to the goal [@carless2019; @hattie2007]. Consequently, learning is inextricably tied to the process of assessing learning. When a learner is able to generate their own feedback on performance, they no longer need the instructor and can sustain their own learning [@boud2016].
+<!--
 
 - 
 - Co-creating safe spaces for inquiry into meaningful questions and challenges
@@ -49,5 +50,7 @@ Coming to know something (learning) is a result of what we do. When learners str
   - 	Shuell (1986, p. 429), “If students are to learn desired outcomes in a reasonably effective manner, then the teacher’s fundamental task is to get students to engage in learning activities that are likely to result in their achieving those outcomes. It is important to remember that what the student does is more important than what the teacher does.”
 - Assessment strategies and practices are the curriculum
   - 	Assessment of/for/as learning	
+
+-->
 
 # References
