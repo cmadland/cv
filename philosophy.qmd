@@ -20,27 +20,39 @@ One learner in my class reflected on their experience during LDRS 663 in their f
 
 ## What We Do
 
-Teleological perspectives are derived from who we are and inform the actions we take to empower learners.
-
 > Learning is idealized as a cognitive apprenticeship which supports the process of sense-making in the context of complex ideas.
 
 We know from @bloom1984 that the most profound learning experiences occur in the context of sustained discourse between a learner (or maybe two or three) and an instructor (who can sometimes be a peer or other interested observer). This sense-making process must include the learner actively drawing connections between ideas and drawing conclusions that are relevant to their own contexts. Sense-making is often a difficult and tentative process, so it is incumbent on the instructor to allow learners to do the work of learning and to recognize that not all learners will achieve at the same pace. Learners exercise autonomy and agency when they are encouraged to exercise evaluative judgement [@tai2018] through the comparison of their own work to the work of both novice and expert others and to the intended learning outcome. The task of assessment is a similar process of the instructor making sense of what the learner has demonstrated in their process and the products of their work. 
 
-An example of how this principle is realized in my online courses is in how I structure discourse, or the conversation around course concepts. Learners are required to demonstrate their process of coming to understand a topic or task. A 'discussion forum', which may use various platforms such as blogs or social media, in any of my courses is considered to be required, but not graded. The discussion forum is not graded because I want my learners to be free to express tentative or controversial ideas without fear of losing marks. Much like conversations inside the four walls of a brick-and-mortar classroom, which are not graded for accuracy, conversations in an online forum should be considered as works-in-progress as learners make sense of concepts and ideas. For graded assignments, learners are required to submit their working documents in addition to the final, polished version.
+This principle is realized in my online courses in how I structure discourse, or the conversation around course concepts. Learners are required to demonstrate their process of coming to understand a topic or task, not only submit a final product. A 'discussion forum', which may use various platforms such as blogs or social media, in any of my courses is considered to be required, but not graded. The discussion forum is not graded because I want my learners to be free to express tentative or controversial ideas without fear of losing marks. Much like conversations inside the four walls of a brick-and-mortar classroom, which are not graded for accuracy, conversations in an online forum should be considered as works-in-progress as learners make sense of concepts and ideas. For graded assignments, learners are required to submit their working documents in addition to the final, polished version.
 
 An example is this anonymized exerpt from a group project final submission.
 
 ![Screenshot of a portion of a MS Word document showing the process of discussing the task.](assets/screenshot-sample-doc.png)
 
-
+Assessment conversations are a key component of allowing me to come to understand what the learner knows or can do. By having a conversation that includes talking about their working docs and the final product, I can get a clearer picture of the learner's ability, I can ask clarifying questions in the moment, and the learner can provide valuable context to their work.
 
 ## How We Know
 
-
-
 > If there is an end, it is when the teacher has become unnecessary.
 
-Coming to know something (learning) is a result of what we do. When learners strive for a cognitive goal, they iterate based on their past knowledge combined with feedback they receive regarding their performance in relation to the goal [@carless2019; @hattie2007]. Consequently, learning is inextricably tied to the process of assessing learning. When a learner is able to generate their own feedback on performance, they no longer need the instructor and can sustain their own learning [@boud2016].
+Coming to know something (learning) is a result of what we do. When learners strive for a cognitive goal, they iterate based on their past knowledge combined with feedback they receive regarding their performance in relation to the goal [@carless2019; @hattie2007]. Consequently, learning is inextricably tied to the process of assessing learning. Traditional models of learning require significant time and effort on the part of instructors who are the primary source of feedback in the process. Contrary to that, when a learner is able to generate their own feedback on performance, they are no longer completely reliant on the instructor and can sustain and direct their own learning [@boud2016]. I believe this should become the primary and overarching goal of higher education institutions, to produce self-sustaining learners who work and live in communities of inquiy for the good of the world.
+
+An example of how this is realized in my courses is that learners are free to choose their domains of inquiry in alignment with the intended outcomes of the course. One of the outcomes in EDCI335 is 
+
+> Identify and evaluate various digital, networked, and open technologies and understand how they impact the learners and the learning process
+
+Learners have meaningful options when it comes to meeting this objective. They can demonstrate their knowledge by creating a short learning experience using a Notion site where participants are led through a lesson in Gender and Mental Health, as below:
+
+![Screenshot of a learner-created lesson on Gender and Mental Health using Notion as the platform.](assets/ilr-notion.png)
+
+Or they may use Google Docs to teach others about the concept of Public Goods in economics.
+
+![Screenshot of a learner-created lesson on Public Goods using Google Docs as the platform.](assets/ILR-gdocs.png)
+
+By encouraging learners to customize their outputs and review each others' work, they are allowed to engage in work that is more relevant to their own lives, and more likely to be able to sustain their learning after my course has completed.
+
+
 <!--
 
 - 
