@@ -54,5 +54,9 @@
   "teaching-dossier.md": {
     "teaching-dossier.html": "0dca6da4",
     "teaching-dossier.docx": "f9018224"
+  },
+  "teaching-dossier.qmd": {
+    "teaching-dossier.html": "9022c3a4",
+    "teaching-dossier.docx": "afd28253"
   }
 }

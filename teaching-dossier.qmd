@@ -1,0 +1,19 @@
+![test](image.png)
+```{r}
+library(tidyverse)
+tch_tib <- here::here("teaching.csv") |> readr::read_csv()
+tch_tib
+```
+
+## Summary of Teaching Responsibilities
+
+## Approach to Teaching
+
+## Efforts to Improve Teaching
+
+## Contributions to Teaching and Student Learning
+
+```{r}
+tch.tbl <- data(teaching.csv)
+tch.tbl
+```
