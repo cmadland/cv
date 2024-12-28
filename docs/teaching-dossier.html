@@ -129,14 +129,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="image.png" class="img-fluid figure-img"></p>
-<figcaption>test</figcaption>
-</figure>
-</div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
@@ -147,11 +140,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
-ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>tch_tib <span class="ot">&lt;-</span> here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"teaching.csv"</span>) <span class="sc">|&gt;</span> readr<span class="sc">::</span><span class="fu">read_csv</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Rows: 5 Columns: 7
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors
+Rows: 5 Columns: 7
 ── Column specification ────────────────────────────────────────────────────────
 Delimiter: ","
 chr (2): term, course
@@ -160,16 +150,132 @@ dbl (5): resp, class_size, med_time, crs_rate_otst, tch_rate_otst
 ℹ Use `spec()` to retrieve the full column specification for this data.
 ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
 </div>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>tch_tib</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 5 × 7
   term    course   resp class_size med_time crs_rate_otst tch_rate_otst
   &lt;chr&gt;   &lt;chr&gt;   &lt;dbl&gt;      &lt;dbl&gt;    &lt;dbl&gt;         &lt;dbl&gt;         &lt;dbl&gt;
-1 SP 2022 LDRS663     3         11        7             2             2
+1 FA 2020 LDRS663     2         11       20             0             0
 2 SU 2021 LDRS663     3          7       12             0             0
-3 FA 2023 LDRS663     1          6       NA             1             1
-4 SP 2024 LDRS663     3          4       NA             1             1
-5 FA 2020 LDRS663     2         11       20             0             0</code></pre>
+3 SP 2022 LDRS663     3         11        7             2             2
+4 FA 2023 LDRS663     1          6       NA             1             1
+5 SP 2024 LDRS663     3          4       NA             1             1</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>freq_tbl <span class="ot">&lt;-</span> tch_tib <span class="sc">|&gt;</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">group_by</span>(term) <span class="sc">|&gt;</span> </span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">summarise</span>(</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">frequency =</span> <span class="fu">n</span>()</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>freq_tbl</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 5 × 2
+  term    frequency
+  &lt;chr&gt;       &lt;int&gt;
+1 FA 2020         1
+2 FA 2023         1
+3 SP 2022         1
+4 SP 2024         1
+5 SU 2021         1</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>datawizard<span class="sc">::</span><span class="fu">describe_distribution</span>(<span class="at">x =</span> tch_tib,</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">select =</span> <span class="cn">NULL</span>,</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">exclude =</span> <span class="cn">NULL</span>,</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">centrality =</span> <span class="st">"mean"</span>,</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">dispersion =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">iqr =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">range =</span> <span class="cn">TRUE</span>,</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">quartiles =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">include_factors =</span> <span class="cn">FALSE</span>,</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">ci =</span> <span class="cn">NULL</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: Need at least 4 complete observations for type-2-kurtosis Using
+  'type="1"' now.</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Variable      |  Mean |   SD |   IQR |         Range | Skewness | Kurtosis | n | n_Missing
+------------------------------------------------------------------------------------------
+resp          |  2.40 | 0.89 |  1.50 |  [1.00, 3.00] |    -1.26 |     0.31 | 5 |         0
+class_size    |  7.80 | 3.11 |  6.00 | [4.00, 11.00] |     0.06 |    -2.30 | 5 |         0
+med_time      | 13.00 | 6.56 | 13.00 | [7.00, 20.00] |     0.67 |    -1.50 | 3 |         2
+crs_rate_otst |  0.80 | 0.84 |  1.50 |  [0.00, 2.00] |     0.51 |    -0.61 | 5 |         0
+tch_rate_otst |  0.80 | 0.84 |  1.50 |  [0.00, 2.00] |     0.51 |    -0.61 | 5 |         0</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="fu">head</span>(tch_tib))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<table class="caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 11%">
+<col style="width: 7%">
+<col style="width: 15%">
+<col style="width: 13%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">term</th>
+<th style="text-align: left;">course</th>
+<th style="text-align: right;">resp</th>
+<th style="text-align: right;">class_size</th>
+<th style="text-align: right;">med_time</th>
+<th style="text-align: right;">crs_rate_otst</th>
+<th style="text-align: right;">tch_rate_otst</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">FA 2020</td>
+<td style="text-align: left;">LDRS663</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">20</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SU 2021</td>
+<td style="text-align: left;">LDRS663</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">12</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SP 2022</td>
+<td style="text-align: left;">LDRS663</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FA 2023</td>
+<td style="text-align: left;">LDRS663</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SP 2024</td>
+<td style="text-align: left;">LDRS663</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">NA</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">1</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 <section id="summary-of-teaching-responsibilities" class="level2">
@@ -183,16 +289,6 @@ dbl (5): resp, class_size, med_time, crs_rate_otst, tch_rate_otst
 </section>
 <section id="contributions-to-teaching-and-student-learning" class="level2">
 <h2 class="anchored" data-anchor-id="contributions-to-teaching-and-student-learning">Contributions to Teaching and Student Learning</h2>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>tch.tbl <span class="ot">&lt;-</span> <span class="fu">data</span>(teaching.csv)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning in data(teaching.csv): data set 'teaching.csv' not found</code></pre>
-</div>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>tch.tbl</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] "teaching.csv"</code></pre>
-</div>
-</div>
 
 
 </section>

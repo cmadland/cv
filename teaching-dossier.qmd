@@ -1,8 +1,34 @@
-![test](image.png)
 ```{r}
+#| echo: false
 library(tidyverse)
 tch_tib <- here::here("teaching.csv") |> readr::read_csv()
 tch_tib
+```
+
+```{r}
+freq_tbl <- tch_tib |>
+  dplyr::group_by(term) |> 
+  dplyr::summarise(
+    frequency = n()
+  )
+freq_tbl
+```
+
+```{r}
+datawizard::describe_distribution(x = tch_tib,
+  select = NULL,
+  exclude = NULL,
+  centrality = "mean",
+  dispersion = TRUE,
+  iqr = TRUE,
+  range = TRUE,
+  quartiles = FALSE,
+  include_factors = FALSE,
+  ci = NULL)
+```
+
+```{r}
+knitr::kable(head(tch_tib))
 ```
 
 ## Summary of Teaching Responsibilities
@@ -12,8 +38,3 @@ tch_tib
 ## Efforts to Improve Teaching
 
 ## Contributions to Teaching and Student Learning
-
-```{r}
-tch.tbl <- data(teaching.csv)
-tch.tbl
-```
