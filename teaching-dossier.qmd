@@ -1,19 +1,28 @@
+
 ```{r}
 #| echo: false
 library(tidyverse)
-tch_tib <- here::here("teaching.csv") |> readr::read_csv()
-tch_tib
+tch_tib <- here::here("data/teaching.csv") |> readr::read_csv()
+evals_tib <- here::here("data/evals.csv") |> readr::read_csv()
 ```
 
 ```{r}
-freq_tbl <- tch_tib |>
-  dplyr::group_by(term) |> 
+freq_tbl_tch <- tch_tib |>
+  dplyr::group_by(Course) |> 
   dplyr::summarise(
     frequency = n()
   )
-freq_tbl
+freq_tbl_tch
 ```
 
+```{r}
+freq_tbl_evals <- evals_tib |>
+  dplyr::group_by(Term) |> 
+  dplyr::summarise(
+    frequency = n()
+  )
+freq_tbl_evals
+```
 ```{r}
 datawizard::describe_distribution(x = tch_tib,
   select = NULL,
@@ -29,6 +38,10 @@ datawizard::describe_distribution(x = tch_tib,
 
 ```{r}
 knitr::kable(head(tch_tib))
+```
+
+```{r}
+knitr::kable(head(evals_tib))
 ```
 
 ## Summary of Teaching Responsibilities
