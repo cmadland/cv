@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -129,226 +95,158 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
+<section id="summary-of-teaching-responsibilities" class="level2">
+<h2 class="anchored" data-anchor-id="summary-of-teaching-responsibilities">Summary of Teaching Responsibilities</h2>
 <div class="cell">
-<div class="cell-output cell-output-stderr">
-<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-✔ dplyr     1.1.4     ✔ readr     2.1.5
-✔ forcats   1.0.0     ✔ stringr   1.5.1
-✔ ggplot2   3.5.1     ✔ tibble    3.2.1
-✔ lubridate 1.9.3     ✔ tidyr     1.3.1
-✔ purrr     1.0.2     
-── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter() masks stats::filter()
-✖ dplyr::lag()    masks stats::lag()
-ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors
-Rows: 17 Columns: 5
-── Column specification ────────────────────────────────────────────────────────
-Delimiter: ","
-chr (3): Year, Course, Title
-dbl (2): Credit Hours/Units, Students
-
-ℹ Use `spec()` to retrieve the full column specification for this data.
-ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
-Rows: 5 Columns: 6
-── Column specification ────────────────────────────────────────────────────────
-Delimiter: ","
-chr (2): Term, Course
-dbl (4): Responses, Class Size, Median Time Spent, Percent Teaching Rating G...
-
-ℹ Use `spec()` to retrieve the full column specification for this data.
-ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>freq_tbl_tch <span class="ot">&lt;-</span> tch_tib <span class="sc">|&gt;</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">group_by</span>(Course) <span class="sc">|&gt;</span> </span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">summarise</span>(</span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">frequency =</span> <span class="fu">n</span>()</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>freq_tbl_tch</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 5 × 2
-  Course  frequency
-  &lt;chr&gt;       &lt;int&gt;
-1 EDCI335         3
-2 EDCI338         1
-3 EDCI339         2
-4 LDRS463         1
-5 LDRS663        10</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>freq_tbl_evals <span class="ot">&lt;-</span> evals_tib <span class="sc">|&gt;</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">group_by</span>(Term) <span class="sc">|&gt;</span> </span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  dplyr<span class="sc">::</span><span class="fu">summarise</span>(</span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">frequency =</span> <span class="fu">n</span>()</span>
-<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>  )</span>
-<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>freq_tbl_evals</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 5 × 2
-  Term    frequency
-  &lt;chr&gt;       &lt;int&gt;
-1 FA 2020         1
-2 FA 2023         1
-3 SP 2022         1
-4 SP 2024         1
-5 SU 2021         1</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>datawizard<span class="sc">::</span><span class="fu">describe_distribution</span>(<span class="at">x =</span> tch_tib,</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">select =</span> <span class="cn">NULL</span>,</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">exclude =</span> <span class="cn">NULL</span>,</span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">centrality =</span> <span class="st">"mean"</span>,</span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">dispersion =</span> <span class="cn">TRUE</span>,</span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">iqr =</span> <span class="cn">TRUE</span>,</span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">range =</span> <span class="cn">TRUE</span>,</span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">quartiles =</span> <span class="cn">FALSE</span>,</span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>  <span class="at">include_factors =</span> <span class="cn">FALSE</span>,</span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>  <span class="at">ci =</span> <span class="cn">NULL</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Variable           |  Mean |    SD |   IQR |         Range | Skewness | Kurtosis |  n | n_Missing
--------------------------------------------------------------------------------------------------
-Credit Hours/Units |  2.47 |  0.74 |  1.50 |  [1.50, 3.00] |    -0.68 |    -1.77 | 17 |         0
-Students           | 14.59 | 12.31 | 26.50 | [1.00, 30.00] |     0.40 |    -1.77 | 17 |         0</code></pre>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="fu">head</span>(tch_tib))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <table class="caption-top table table-sm table-striped small">
 <colgroup>
+<col style="width: 11%">
+<col style="width: 15%">
 <col style="width: 13%">
-<col style="width: 9%">
-<col style="width: 41%">
-<col style="width: 23%">
-<col style="width: 11%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Year</th>
-<th style="text-align: left;">Course</th>
-<th style="text-align: left;">Title</th>
-<th style="text-align: right;">Credit Hours/Units</th>
-<th style="text-align: right;">Students</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">Summer2019</td>
-<td style="text-align: left;">EDCI335</td>
-<td style="text-align: left;">Learning Design</td>
-<td style="text-align: right;">1.5</td>
-<td style="text-align: right;">30</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Summer2019</td>
-<td style="text-align: left;">EDCI339</td>
-<td style="text-align: left;">Open and Distributed Learning</td>
-<td style="text-align: right;">1.5</td>
-<td style="text-align: right;">30</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Summer2019</td>
-<td style="text-align: left;">LDRS663</td>
-<td style="text-align: left;">Transformational Blended Learning</td>
-<td style="text-align: right;">3.0</td>
-<td style="text-align: right;">3</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Summer2020</td>
-<td style="text-align: left;">EDCI335</td>
-<td style="text-align: left;">Learning Design</td>
-<td style="text-align: right;">1.5</td>
-<td style="text-align: right;">30</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Summer2020</td>
-<td style="text-align: left;">EDCI339</td>
-<td style="text-align: left;">Open and Distributed Learning</td>
-<td style="text-align: right;">1.5</td>
-<td style="text-align: right;">30</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">Summer2020</td>
-<td style="text-align: left;">LDRS663</td>
-<td style="text-align: left;">Transformational Blended Learning</td>
-<td style="text-align: right;">3.0</td>
-<td style="text-align: right;">16</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="fu">head</span>(evals_tib))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<table class="caption-top table table-sm table-striped small">
-<colgroup>
-<col style="width: 8%">
-<col style="width: 8%">
-<col style="width: 10%">
-<col style="width: 11%">
-<col style="width: 18%">
-<col style="width: 44%">
+<col style="width: 12%">
+<col style="width: 47%">
 </colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Term</th>
 <th style="text-align: left;">Course</th>
-<th style="text-align: right;">Responses</th>
 <th style="text-align: right;">Class Size</th>
-<th style="text-align: right;">Median Time Spent</th>
-<th style="text-align: right;">Percent Teaching Rating Good or Outstanding</th>
+<th style="text-align: right;">Responses</th>
+<th style="text-align: right;">% Teaching Rating Good or Outstanding</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">FA 2020</td>
+<td style="text-align: left;">FA 2024</td>
+<td style="text-align: left;">LDRS463/663</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SP 2024</td>
 <td style="text-align: left;">LDRS663</td>
-<td style="text-align: right;">2</td>
-<td style="text-align: right;">11</td>
-<td style="text-align: right;">20</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">67</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FA 2023</td>
+<td style="text-align: left;">LDRS663</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">1</td>
 <td style="text-align: right;">100</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">SU 2021</td>
+<td style="text-align: left;">SP 2023</td>
 <td style="text-align: left;">LDRS663</td>
-<td style="text-align: right;">3</td>
-<td style="text-align: right;">7</td>
-<td style="text-align: right;">12</td>
-<td style="text-align: right;">33</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">NA</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">SP 2022</td>
 <td style="text-align: left;">LDRS663</td>
-<td style="text-align: right;">3</td>
 <td style="text-align: right;">11</td>
-<td style="text-align: right;">7</td>
+<td style="text-align: right;">6</td>
 <td style="text-align: right;">67</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">FA 2023</td>
-<td style="text-align: left;">LDRS663</td>
-<td style="text-align: right;">1</td>
+<td style="text-align: left;">SP 2022</td>
+<td style="text-align: left;">EDCI338</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">75</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FA 2021</td>
+<td style="text-align: left;">EDCI335</td>
+<td style="text-align: right;">41</td>
 <td style="text-align: right;">6</td>
+<td style="text-align: right;">100</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Fall2021</td>
+<td style="text-align: left;">LDRS663</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0</td>
 <td style="text-align: right;">NA</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SU 2021</td>
+<td style="text-align: left;">LDRS663</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">33</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SU 2021</td>
+<td style="text-align: left;">EDCI335</td>
+<td style="text-align: right;">40</td>
+<td style="text-align: right;">9</td>
 <td style="text-align: right;">100</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">SP 2024</td>
+<td style="text-align: left;">SP 2021</td>
+<td style="text-align: left;">LDRS663</td>
+<td style="text-align: right;">7</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FA 2020</td>
+<td style="text-align: left;">LDRS663</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">100</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SU 2020</td>
+<td style="text-align: left;">LDRS663</td>
+<td style="text-align: right;">16</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">NA</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SU 2020</td>
+<td style="text-align: left;">EDCI339</td>
+<td style="text-align: right;">59</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">33</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SU 2020</td>
+<td style="text-align: left;">EDCI335</td>
+<td style="text-align: right;">56</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">100</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SU 2019</td>
 <td style="text-align: left;">LDRS663</td>
 <td style="text-align: right;">3</td>
-<td style="text-align: right;">4</td>
+<td style="text-align: right;">0</td>
 <td style="text-align: right;">NA</td>
-<td style="text-align: right;">67</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">SU 2019</td>
+<td style="text-align: left;">EDCI339</td>
+<td style="text-align: right;">39</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">100</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">SU 2019</td>
+<td style="text-align: left;">EDCI335</td>
+<td style="text-align: right;">37</td>
+<td style="text-align: right;">8</td>
+<td style="text-align: right;">75</td>
 </tr>
 </tbody>
 </table>
 </div>
 </div>
-<section id="summary-of-teaching-responsibilities" class="level2">
-<h2 class="anchored" data-anchor-id="summary-of-teaching-responsibilities">Summary of Teaching Responsibilities</h2>
 </section>
 <section id="approach-to-teaching" class="level2">
 <h2 class="anchored" data-anchor-id="approach-to-teaching">Approach to Teaching</h2>
@@ -358,6 +256,56 @@ Students           | 14.59 | 12.31 | 26.50 | [1.00, 30.00] |     0.40 |    -1.77
 </section>
 <section id="contributions-to-teaching-and-student-learning" class="level2">
 <h2 class="anchored" data-anchor-id="contributions-to-teaching-and-student-learning">Contributions to Teaching and Student Learning</h2>
+<!--
+
+
+
+
+
+
+::: {.cell}
+::: {.cell-output .cell-output-stdout}
+
+```
+# A tibble: 12 × 2
+   Term     frequency
+   <chr>        <int>
+ 1 FA 2020          1
+ 2 FA 2021          1
+ 3 FA 2023          1
+ 4 FA 2024          1
+ 5 Fall2021         1
+ 6 SP 2021          1
+ 7 SP 2022          2
+ 8 SP 2023          1
+ 9 SP 2024          1
+10 SU 2019          3
+11 SU 2020          3
+12 SU 2021          2
+```
+
+
+:::
+:::
+
+::: {.cell}
+::: {.cell-output .cell-output-stdout}
+
+```
+Variable                              |  Mean |    SD |   IQR |           Range | Skewness | Kurtosis |  n | n_Missing
+----------------------------------------------------------------------------------------------------------------------
+Class Size                            | 21.50 | 19.86 | 33.75 |   [1.00, 59.00] |     0.68 |    -1.12 | 18 |         0
+Responses                             |  2.78 |  2.86 |  4.50 |    [0.00, 9.00] |     0.90 |    -0.07 | 18 |         0
+% Teaching Rating Good or Outstanding | 79.17 | 25.58 | 33.00 | [33.00, 100.00] |    -0.95 |    -0.26 | 12 |         6
+```
+
+
+:::
+:::
+
+
+
+-->
 
 
 </section>

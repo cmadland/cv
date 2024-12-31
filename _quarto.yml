@@ -23,10 +23,18 @@ format:
     theme: yeti
     css: styles.css
     toc: true
+    execute:
+      echo: false
+      warning: false
+
+
+
   # pdf: default
-  docx: 
+  docx:
+    execute: 
+      echo: false
     reference-doc: reference.docx
-bibliography: references.bib
-csl: apa.csl
+    bibliography: references.bib
+    csl: apa.csl
 
 
