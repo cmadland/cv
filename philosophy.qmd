@@ -4,7 +4,7 @@ bibliography: references.bib
 
 # Philosophy of Teaching and Learning
 
-In my research and practice of teaching and learning in higher education, I ground my work in three broad principles related to who we are, what we do, and how we know.
+In my research and practice of teaching and learning in higher education, I ground my work in three broad principles related to *who learners are*, *what teachers do*, and *how teachers know what learners know*.
 
 ## Who We Are
 
