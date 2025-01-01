@@ -66,5 +66,13 @@
   "letter.md": {
     "letter.html": "fc54f530",
     "letter.docx": "1983f4fd"
+  },
+  "service.qmd": {
+    "service.html": "954e9449",
+    "service.docx": "65024c54"
+  },
+  "letter.qmd": {
+    "letter.html": "ce801f6d",
+    "letter.docx": "a8ca888a"
   }
 }

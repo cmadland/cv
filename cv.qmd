@@ -3,17 +3,19 @@
 # Education
 
 |Degree| Field | Institution|Date|
-|  :---:  |  :---:  |  :---:  | :---:  |
-|Ph.D.| Technology-Integrated Assessment | University of Victoria|Expected 2025\*|
-|    M.Ed. | Distance Education   |Athabasca University|2014\*\*|
+|  :---  |  :---  |  :---  | :---  |
+|Ph.D.| Technology-Integrated Assessment | University of Victoria| 2025|
+|    M.Ed. | Distance Education   |Athabasca University|2014|
 |  B.Ed.     | Physical Education | University of Lethbridge      |2001|
 |  B.A.     | Physical Education      | Trinity Western University    | 1997  |
 : {.striped}
 
 
+<!--
 \* I completed candidacy in 2022 and have since published 2 of 3 papers for my dissertation. The third paper is in process and I expect to be complete by the summer of 2025.
 
 \*\*Thesis: *Structured Student Interactions in Online Distance Education: Exploring the Study Buddy Activity* <http://hdl.handle.net/10791/47>
+-->
 
 
 
@@ -28,7 +30,8 @@
 
 |Dates| Position, Employer       |
 |  ---  |  ---  |
-|2016 - |  Manager of Online Learning and Instructional Technologies, Trinity Western University     |
+|2024 - |  Director, Technology-integrated Learning and Assessment, Trinity Western University     |
+|2016 - 2024|  Manager of Online Learning and Instructional Technologies, Trinity Western University     |
 | 2019 - | Sessional Instructor, Trinity Western University | 
 | 2019 - 2022 | Sessional Instructor, University of Victoria | 
 |  2016     | Coordinator for Educational Technologies, Thompson Rivers University (Sessional )      |
@@ -105,7 +108,7 @@
 
 # Research Dissemination
 
--  [UPCOMING] "Technology-Integrated Assessment in Higher Education"; Kigali, Rwanda; Uganda; and Pan-Africa Christian University, Nairobi, Kenya, November 2024
+-  "Technology-Integrated Assessment in Higher Education"; Kigali, Rwanda; Uganda; and Pan-Africa Christian University, Nairobi, Kenya, November 2024
 - "Self-Paced Learning in Higher Education", Pan-Africa Christian University, Nairobi, Kenya, May 2023
 - "What is Assessment", TWU Faculty Professional Learning.  March 2023 <https://cmadland.github.io/decks/twu-faculty-professional-learning.html>.
 
@@ -127,18 +130,19 @@ Undergraduate and **Graduate**
 
 |Year| Course       | Title      | Credit Hours/Units      | Students  |
 |  :---:  |  ---  |  :---:  |   :---:  | :---: |
-|  Summer 2019     |  EDCI 335     |   Learning Design    |  1.5     |  ~30    |
-|  Summer 2019     |  EDCI 339     |   Open and Distributed Learning    |  1.5     |  ~30    |
+|  Summer 2019     |  EDCI 335     |   Learning Design    |  1.5     |  37   |
+|  Summer 2019     |  EDCI 339     |   Open and Distributed Learning    |  1.5     |  39    |
 |  Summer 2019     |  **LDRS 663**     |   Transformational Blended Learning    |  3     |  3    |
-|  Summer 2020     |  EDCI 335     |   Learning Design    |  1.5     |  ~30    |
-|  Summer 2020     |  EDCI 339     |   Open and Distributed Learning     |  1.5     |  ~30    |
+|  Summer 2020     |  EDCI 335     |   Learning Design    |  1.5     |  56    |
+|  Summer 2020     |  EDCI 339     |   Open and Distributed Learning     |  1.5     |  59    |
 |  Summer 2020     |  **LDRS 663**     |   Transformational Blended Learning    |  3     |  16    |
 |  Fall 2020     |  **LDRS 663**     |   Transformational Blended Learning    |  3     |  10    |
 |  Spring 2021     |  **LDRS 663**     |   Transformational Blended Learning    |  3     |  7    |
-|  Summer 2021     |  EDCI 335     |   Learning Design    |  1.5     |  ~30    |
+|  Summer 2021     |  EDCI 335     |   Learning Design    |  1.5     |  40    |
 |  Fall 2021     |  **LDRS 663**     |   Transformational Blended Learning    |  3     |  7 (All in Nigeria)    |
+|  Fall 2021     |  EDCI 335     |   Learning Design    |  1.5     |  41    |
 |  Spring 2022    |  **LDRS 663**     |   Transformational Blended Learning    |  3     |  11    |
-|  Summer 2022     |  EDCI 338     |   Social Media and Personalized Learning    |  1.5     |  ~30    |
+|  Summer 2022     |  EDCI 338     |   Social Media and Personalized Learning    |  1.5     |  39    |
 |  Spring 2023   |  **LDRS 663**     |   Transformational Blended Learning    |  3     |  1 (DS)    |
 |  Fall 2023   |  **LDRS 663**     |   Transformational Blended Learning    |  3     |  6 (4 in Nigeria)    |
 |  Fall 2023   |  **LDRS 663**     |   Transformational Blended Learning    |  3     |  4    |
@@ -186,10 +190,6 @@ Undergraduate and **Graduate**
 
 -   Coaching for Leaders, Smart + Savvy and Associates (2018)
 -   [Interculturalizing the Curriculum](https://www.tru.ca/intercultural/inventory.html), Thompson Rivers University (2015)
-
-
-## References
-
 
 
 ```{=html}

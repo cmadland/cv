@@ -6,7 +6,7 @@ bibliography: references.bib
 
 In my research and practice of teaching and learning in higher education, I ground my work in three broad principles related to *who learners are*, *what teachers do*, and *how teachers know what learners know*.
 
-## Who We Are
+## Who Learners Are
 
 > Those who seek to learn to improve themselves and the world around them have inherent dignity and value.
 
@@ -18,7 +18,7 @@ One learner in my class reflected on their experience during LDRS 663 in their f
 
 > Reflecting on these experiences, I’ve come to realize that transformational learning through coaching and facilitation is not simply a collection of tools; it is a deeply transformative mindset rooted in empathy, openness, and a commitment to critically engaging with deeply held beliefs. This mindset has profoundly reshaped my ... identity, broadening my understanding of what it means to lead a ... community. It challenges the notion of ... authority as merely instructive, moving it instead toward a collaborative, relational approach that invites people into a shared journey of growth and exploration. Through this lens, my purpose has evolved into guiding our [community] toward a new understanding of inclusivity—not as a trend, but as an essential ... value grounded in love, curiosity, and respect for diverse perspectives.
 
-## What We Do
+## What Teachers Do
 
 > Learning is idealized as a cognitive apprenticeship which supports the process of sense-making in the context of complex ideas.
 
@@ -32,7 +32,7 @@ An example is this anonymized exerpt from a group project final submission.
 
 Assessment conversations are a key component of allowing me to come to understand what the learner knows or can do. By having a conversation that includes talking about their working docs and the final product, I can get a clearer picture of the learner's ability, I can ask clarifying questions in the moment, and the learner can provide valuable context to their work.
 
-## How We Know
+## How Teachers Know What Learners Know
 
 > If there is an end, it is when the teacher has become unnecessary.
 
@@ -50,7 +50,11 @@ Or they may use Google Docs to teach others about the concept of Public Goods in
 
 ![Screenshot of a learner-created lesson on Public Goods using Google Docs as the platform.](assets/ILR-gdocs.png)
 
-By encouraging learners to customize their outputs and review each others' work, they are allowed to engage in work that is more relevant to their own lives, and more likely to be able to sustain their learning after my course has completed.
+By encouraging learners to customize their outputs and review each others' work, they are allowed to engage in work that is more relevant to their own lives, and more likely to be able to sustain their learning after my course has completed. 
+
+The most effective process of me coming to know what the learner knows is to schedule 10-15 minute synchronous assessment conversations with learners where they present their work. I thus have the opportunity in the moment to probe their thinking about their work and to make a determination of the authenticity of their performance.
+
+In summary, I believe that all learners have inherent rights and dignity, that teaching and learning is a relationship best described as a cognitive apprenticeship, and that meaningful work and conversations are the best ways to certify that learning has occured.
 
 
 <!--
