@@ -74,5 +74,8 @@
   "letter.qmd": {
     "letter.html": "ce801f6d",
     "letter.docx": "a8ca888a"
+  },
+  "code-testing.qmd": {
+    "code-testing.html": "c3466a1b"
   }
 }

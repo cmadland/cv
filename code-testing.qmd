@@ -1,0 +1,23 @@
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+evals_tib <- here::here("data/evals.csv") |> readr::read_csv()
+```
+
+<!-- ```{r}
+plot(density(evals_tib$class_size))
+``` -->
+
+```{r}
+ggplot(data = evals_tib,                                # Density plot using ggplot2
+       aes(x = pct_good, y = Course)) +
+  geom_point()
+```
+
+
+```{r}
+ggplot(data = evals_tib,                                # Density plot using ggplot2
+       aes(x = Course, y = pct_good)) +
+  geom_smooth()
+```

@@ -3,19 +3,14 @@ project:
   output-dir: docs
 
 website:
-  title: "Colin Madland"
-#  navbar:
-#    left:
-#      - href: index.qmd
-#        text: Home
-#      - cv.qmd
-  sidebar: false
-    # style: "docked"
-    # search: true
-    # contents:
-    #   - timeline.qmd
-    #   # - cv.qmd
-    #   # - philosophy.qmd
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+    - cv.qmd
+    - philosophy.qmd
+    - teaching-dossier.qmd
+    - research.qmd
 
 
 format:
@@ -30,11 +25,11 @@ format:
 
 
   # pdf: default
-  docx:
-    execute: 
-      echo: false
-    reference-doc: reference.docx
-    bibliography: references.bib
-    csl: apa.csl
+  # docx:
+  #   execute: 
+  #     echo: false
+  #   reference-doc: reference.docx
+  #   bibliography: references.bib
+  #   csl: apa.csl
 
 

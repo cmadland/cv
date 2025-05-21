@@ -3,7 +3,7 @@ execute:
   echo: false
 ---
 
-# TEACHING DOSSIER
+# Teaching Dossier
 
 ```{r echo = FALSE}
 library(tidyverse)
