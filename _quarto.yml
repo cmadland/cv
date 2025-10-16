@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+bibliography: references.bib
+
 
 website:
   sidebar:
@@ -25,11 +27,13 @@ format:
 
 
   # pdf: default
-  # docx:
-  #   execute: 
-  #     echo: false
-  #   reference-doc: reference.docx
-  #   bibliography: references.bib
-  #   csl: apa.csl
+  docx:
+    execute: 
+      echo: false
+    reference-doc: reference.docx
+    bibliography: references.bib
+    csl: apa.csl
+    toc: false
+    number-sections: true
 
 

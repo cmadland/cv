@@ -57,7 +57,8 @@
   },
   "teaching-dossier.qmd": {
     "teaching-dossier.html": "9022c3a4",
-    "teaching-dossier.docx": "afd28253"
+    "teaching-dossier.docx": "afd28253",
+    "teaching-dossier.tex": "c14e16cc"
   },
   "teaching-dossier (# Edit conflict 2024-12-27 J4IIlRb #).qmd": {
     "teaching-dossier (# Edit conflict 2024-12-27 J4IIlRb #).html": "d5f18647",
@@ -69,13 +70,44 @@
   },
   "service.qmd": {
     "service.html": "954e9449",
-    "service.docx": "65024c54"
+    "service.docx": "65024c54",
+    "service.tex": "d4181630"
   },
   "letter.qmd": {
     "letter.html": "ce801f6d",
-    "letter.docx": "a8ca888a"
+    "letter.docx": "a8ca888a",
+    "letter.tex": "6754ddd0"
   },
   "code-testing.qmd": {
-    "code-testing.html": "c3466a1b"
+    "code-testing.html": "c3466a1b",
+    "code-testing.docx": "dc25932d",
+    "code-testing.tex": "c3fd6353"
+  },
+  "Ontario-Tech-Uni/ont-tech-letter.qmd": {
+    "ont-tech-letter.html": "60bef8df",
+    "ont-tech-letter.docx": "3f5e3478",
+    "ont-tech-letter.tex": "64d24eac"
+  },
+  "Ontario-Tech-Uni/philosophy.qmd": {
+    "philosophy.html": "9b4c3642",
+    "philosophy.docx": "54c8ac97",
+    "philosophy.tex": "e01208a2"
+  },
+  "Ontario-Tech-Uni/teaching-dossier.qmd": {
+    "teaching-dossier.html": "0371e847",
+    "teaching-dossier.docx": "e4a67eaa"
+  },
+  "Ontario-Tech-Uni/index.qmd": {
+    "index.html": "3ef450ee",
+    "index.docx": "9d2d38b1"
+  },
+  "Ontario-Tech-Uni/cv.qmd": {
+    "cv.html": "80f35a83",
+    "cv.docx": "dc5c8701"
+  },
+  "Ontario-Tech-Uni/research.qmd": {
+    "research.html": "bdea2170",
+    "research.docx": "bb0f5f80",
+    "research.tex": "3be9d33f"
   }
 }

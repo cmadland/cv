@@ -6,7 +6,7 @@ bibliography: references.bib
 
 In my research and practice of teaching and learning in higher education, I ground my work in three broad principles related to *who learners are*, *what teachers do*, and *how teachers know what learners know*.
 
-## Who Learners Are
+### Who Learners Are
 
 > Those who seek to learn to improve themselves and the world around them have inherent dignity and value.
 
@@ -18,65 +18,42 @@ One learner in my class reflected on their experience during LDRS 663 in their f
 
 > Reflecting on these experiences, I’ve come to realize that transformational learning through coaching and facilitation is not simply a collection of tools; it is a deeply transformative mindset rooted in empathy, openness, and a commitment to critically engaging with deeply held beliefs. This mindset has profoundly reshaped my ... identity, broadening my understanding of what it means to lead a ... community. It challenges the notion of ... authority as merely instructive, moving it instead toward a collaborative, relational approach that invites people into a shared journey of growth and exploration. Through this lens, my purpose has evolved into guiding our [community] toward a new understanding of inclusivity—not as a trend, but as an essential ... value grounded in love, curiosity, and respect for diverse perspectives.
 
-## What Teachers Do
+### What Teachers Do
 
 > Learning is idealized as a cognitive apprenticeship which supports the process of sense-making in the context of complex ideas.
 
-We know from @bloom1984 that the most profound learning experiences occur in the context of sustained discourse between a learner (or maybe two or three) and an instructor (who can sometimes be a peer or other interested observer). This sense-making process must include the learner actively drawing connections between ideas and drawing conclusions that are relevant to their own contexts. Sense-making is often a difficult and tentative process, so it is incumbent on the instructor to allow learners to do the work of learning and to recognize that not all learners will achieve at the same pace. Learners exercise autonomy and agency when they are encouraged to exercise evaluative judgement [@tai2018] through the comparison of their own work to the work of both novice and expert others and to the intended learning outcome. The task of assessment is a similar process of the instructor making sense of what the learner has demonstrated in their process and the products of their work. 
+We know from Bloom [-@bloom1984] that the most profound learning experiences occur in the context of sustained discourse between a learner (or maybe two or three) and an instructor (who can sometimes be a peer or other interested observer). This sense-making process must include the learner actively drawing connections between ideas and drawing conclusions that are relevant to their own contexts. Sense-making is often a difficult and tentative process, so it is incumbent on the instructor to allow learners to do the work of learning and to recognize that not all learners will achieve at the same pace. Learners exercise autonomy and agency when they are encouraged to exercise evaluative judgement [@tai2018] through the comparison of their own work to the work of both novice and expert others and to the intended learning outcome. The task of assessment is a similar process of the instructor making sense of what the learner has demonstrated in their process and the products of their work. 
 
 This principle is realized in my online courses in how I structure discourse, or the conversation around course concepts. Learners are required to demonstrate their process of coming to understand a topic or task, not only submit a final product. A 'discussion forum', which may use various platforms such as blogs or social media, in any of my courses is considered to be required, but not graded. The discussion forum is not graded because I want my learners to be free to express tentative or controversial ideas without fear of losing marks. Much like conversations inside the four walls of a brick-and-mortar classroom, which are not graded for accuracy, conversations in an online forum should be considered as works-in-progress as learners make sense of concepts and ideas. For graded assignments, learners are required to submit their working documents in addition to the final, polished version.
 
 An example is this anonymized exerpt from a group project final submission.
 
-![Screenshot of a portion of a MS Word document showing the process of discussing the task.](assets/screenshot-sample-doc.png)
+![Screenshot of a portion of a MS Word document showing the process of discussing the task.](../assets/screenshot-sample-doc.png){fig-alt="Screenshot of a portion of a MS Word document showing the process of discussing the task."}
 
 Assessment conversations are a key component of allowing me to come to understand what the learner knows or can do. By having a conversation that includes talking about their working docs and the final product, I can get a clearer picture of the learner's ability, I can ask clarifying questions in the moment, and the learner can provide valuable context to their work.
 
-## How Teachers Know What Learners Know
+### How Teachers Know What Learners Know
 
 > If there is an end, it is when the teacher has become unnecessary.
 
 Coming to know something (learning) is a result of what we do. When learners strive for a cognitive goal, they iterate based on their past knowledge combined with feedback they receive regarding their performance in relation to the goal [@carless2019; @hattie2007]. Consequently, learning is inextricably tied to the process of assessing learning. Traditional models of learning require significant time and effort on the part of instructors who are the primary source of feedback in the process. Contrary to that, when a learner is able to generate their own feedback on performance, they are no longer completely reliant on the instructor and can sustain and direct their own learning [@boud2016]. I believe this should become the primary and overarching goal of higher education institutions, to produce self-sustaining learners who work and live in communities of inquiy for the good of the world.
 
-An example of how this is realized in my courses is that learners are free to choose their domains of inquiry in alignment with the intended outcomes of the course. One of the outcomes in EDCI335 is 
+An example of how this is realized in my courses is that learners are free to choose their domains of inquiry in alignment with the intended outcomes of the course. One of the outcomes in EDCI 335 is 
 
 > Identify and evaluate various digital, networked, and open technologies and understand how they impact the learners and the learning process
 
 Learners have meaningful options when it comes to meeting this objective. They can demonstrate their knowledge by creating a short learning experience using a Notion site where participants are led through a lesson in Gender and Mental Health, as below:
 
-![Screenshot of a learner-created lesson on Gender and Mental Health using Notion as the platform.](assets/ilr-notion.png)
+![Screenshot of a learner-created lesson on Gender and Mental Health using Notion as the platform.](../assets/ilr-notion.png){fig-alt="Screenshot of a learner-created lesson on Gender and Mental Health using Notion as the platform."}
 
-Or they may use Google Docs to teach others about the concept of Public Goods in economics.
+Or, in LDRS 463, they may use Obsidian to highlight their sense-making processes using tags and a concept map.
 
-![Screenshot of a learner-created lesson on Public Goods using Google Docs as the platform.](assets/ILR-gdocs.png)
+![Screenshot of a learner-created concept map using Obsidian as the platform.](../assets/obsidian-screenshot.png){fig-alt="Screenshot of a learner-created concept map using Obsidian as the platform"}
 
 By encouraging learners to customize their outputs and review each others' work, they are allowed to engage in work that is more relevant to their own lives, and more likely to be able to sustain their learning after my course has completed. 
 
 The most effective process of me coming to know what the learner knows is to schedule 10-15 minute synchronous assessment conversations with learners where they present their work. I thus have the opportunity in the moment to probe their thinking about their work and to make a determination of the authenticity of their performance.
 
 In summary, I believe that all learners have inherent rights and dignity, that teaching and learning is a relationship best described as a cognitive apprenticeship, and that meaningful work and conversations are the best ways to certify that learning has occured.
-
-
-<!--
-
-- 
-- Co-creating safe spaces for inquiry into meaningful questions and challenges
-  - 	 Rs – respect, relevance, reciprocity, responsibility, relationsdhip
-  - 	Inclusion
-  - 	Relevance
-  - 	Duty of care
-  - 	Diversity creates the conditions for new ideas
-  - 	relationship
-- Fostering curiosity about the world, why it is the way it is, and what we can do to improve it
-  - 	Relevance
-  - 	Learner autonomy and agency
-- Learning can be a difficult process of transformation
-  - 	Learning happens best when learners feel like they have permission to be wrong
-  - 	Learning requires multiple opportunities for practice to build competence
-  - 	Shuell (1986, p. 429), “If students are to learn desired outcomes in a reasonably effective manner, then the teacher’s fundamental task is to get students to engage in learning activities that are likely to result in their achieving those outcomes. It is important to remember that what the student does is more important than what the teacher does.”
-- Assessment strategies and practices are the curriculum
-  - 	Assessment of/for/as learning	
-
--->
 
 # References

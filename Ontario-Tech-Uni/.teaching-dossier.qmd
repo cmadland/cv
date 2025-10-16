@@ -1,0 +1,63 @@
+---
+execute:
+  echo: false
+---
+
+# Teaching Dossier
+
+```{r echo = FALSE}
+library(tidyverse)
+evals_tib <- here::here("data/evals.csv") |> readr::read_csv()
+```
+
+Teaching is a profound passion of mine, particularly when it allows me to apply my research findings in the classroom. My teaching experience includes junior and senior high school in both public and private high schools in BC and Alberta; internationally as an assistant language teacher in Japan; and in both undergraduate and graduate courses in higher education. I have taught a diverse range of subjects in grades 8-12, including physical education, digital media studies, outdoor education, sports medicine, science, English, and math.
+
+At the University of Victoria, I co-designed and taught three online undergraduate courses: Learning Design, Distributed and Open Learning, and Social Media and Personalized Learning. These courses use WordPress as the primary hub of networked interactions, enabling students to personalize their web presence while acquiring critical digital literacy skills by engaging with the open web. (see my 2022 proceedings on multi-section course design [@irvineMultiSectionOpenCourse2022] as an example of how I share my practice in scholarly venues).
+
+One of the highlights of my undergraduate teaching experience was co-designing and teaching in parallel with a fellow Ph.D. student during the early stages of the global COVID-19 pandemic. This collaborative process was mutually supportive and helped us navigate the complexities of teaching undergraduates in an innovative, technology-integrated context. Our experience is documented in a presentation at the OTESSA21 conference at the Congress of the Social Sciences and Humanities. I also co-designed and taught Coaching for Transformational Blended Learning, a course in the Graduate Certificate in Adult Learning: Coaching and Facilitation at TWU. This course takes an experiential approach to coaching individual learners and facilitating group processes in educational contexts. At the undergraduate level at TWU, I collaborated with an instructional designer to create an introductory online course called Learning with Technology which enrolled its first learners in the Fall of 2024. This course helps learners understand the affordances of technology for sense-making in learning environments by teaching them a technology-integrated workflow that maintains their personal privacy and teaches learners how to build networks of knowledge and learning using WordPress.
+
+## Teaching Effectiveness
+
+The following is a table summarizing courses I have taught, including a synopsis of learner ratings of their experience with me as their instructor. Note that several courses did not meet the threshold for reporting ratings as there were too few submissions of learner experience surveys.
+
+```{r}
+knitr::kable(evals_tib)
+```
+
+
+
+## Efforts to Improve Teaching
+
+Early in my higher education teaching career, there was a pattern of learners not being satisfied with my feedback practices. As I grew as an instructor in online environment, I began implementing more relational assessment and feedback practices as outlined in my teaching philosophy statement. One change that I have consistently implemented since those early efforts is being more intentional and explicit about the connections between the intended learning outcomes in the course and the assessment tasks required of learners. I have found that when learners are more aware of those connections, there is greater willingness to engage in the acivities that lead to success in learning. Further, when there are clear connections between intended outcomes and assessment activities, I can be explicit about any areas that may require further work and help learners bridge any gaps between their ability and the intended outcomes. The final area of growth in my teaching has been the implementation of assessment conversations which provide opportunity for a more relational approach to assessment. Learners have told me that this approach, while different from their previous experience, has allowed them to be more comfortable in exploring ideas tentatively rather than hoping that they produce the 'correct' answer. These approaches and strategies were informed by my dissertation work on the Technology-integrated Assessment Framework.
+
+## Artifact of Teaching Initiatives
+
+In January 2022, I trialled an online course structure built on GitHub for learner contributions and WordPress for learner reflections, which allowed me to track more closely the work that learners were doing and who was contributing to cooperative projects. While there was a longer period of time required to ensure that all learners were comfortable using the platforms, it proved to be useful as an exploration of how openness can be realized in online learning environments. The end result of the course was a co-created website with leaerner contributions clearly visible and my interatctions in the asynchronous environment recorded. [Please feel free to explore the site. Note that it is unchanged since the end of the course.](https://cmadland.github.io/edci338-202201)
+
+## References
+
+<!--
+
+
+
+```{r}
+freq_tbl_evals <- evals_tib |>
+  dplyr::group_by(Term) |> 
+  dplyr::summarise(
+    frequency = n()
+  )
+freq_tbl_evals
+```
+```{r}
+datawizard::describe_distribution(x = evals_tib,
+  select = NULL,
+  exclude = NULL,
+  centrality = "mean",
+  dispersion = TRUE,
+  iqr = TRUE,
+  range = TRUE,
+  quartiles = FALSE,
+  include_factors = FALSE,
+  ci = NULL)
+```
+-->
